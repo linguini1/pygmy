@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "d71bb5b3-2157-482e-8180-9c9127f4e36e")
 	(paper "A4")
+	(title_block
+		(title "Pygmy")
+		(date "2024-11-13")
+		(rev "A")
+		(company "Matteo Golin")
+	)
 	(lib_symbols
 		(symbol "1726480102:Minifit-JR-2pos"
 			(pin_names
