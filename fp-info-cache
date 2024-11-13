@@ -1,4 +1,4 @@
-24093380225531888
+24095111696244958
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97537,3 +97537,10 @@ MOLEX_1726480102
 0
 2
 2
+regulator
+SON65P200X200X80-7N
+DRV0006C
+Integrated Circuit
+0
+7
+7

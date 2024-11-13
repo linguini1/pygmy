@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS74533PQWDRVRQ1
+D LDO Voltage Regulators Automotive 500-mA low-dropout (LDO) regulator with power good 6-WSON -40 to 125
+K
+F https://www.ti.com/lit/gpn/TPS745-Q1
+$ENDCMP
+#
+#End Doc Library
