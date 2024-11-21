@@ -3,4 +3,5 @@
   (lib (name "LSM6DSO32TR")(type "KiCad")(uri "${KIPRJMOD}/lsm6dso32/LSM6DSO32TR.kicad_sym")(options "")(descr ""))
   (lib (name "MEM2067-02-180-00-A_REVB")(type "KiCad")(uri "${KIPRJMOD}/microsd/MEM2067-02-180-00-A_REVB.kicad_sym")(options "")(descr ""))
   (lib (name "1726480102")(type "KiCad")(uri "${KIPRJMOD}/minifit-jr/1726480102.kicad_sym")(options "")(descr ""))
+  (lib (name "TESEO-LIV3R")(type "KiCad")(uri "${KIPRJMOD}/gps/KiCad/TESEO-LIV3R.kicad_sym")(options "")(descr ""))
 )

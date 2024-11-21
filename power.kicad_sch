@@ -1295,6 +1295,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 180.34 73.66)
@@ -1307,6 +1403,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f9321a0-b7b7-4554-a738-39cfedfecefb")
+	)
+	(junction
+		(at 184.15 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "351d9379-8e1b-4f0d-96c5-ee668ed13a89")
 	)
 	(junction
 		(at 88.9 85.09)
@@ -1354,6 +1456,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 73.66) (xy 184.15 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cff6a8-808e-4fdc-afef-a0dfdace7d50")
+	)
+	(wire
+		(pts
 			(xy 76.2 132.08) (xy 76.2 134.62)
 		)
 		(stroke
@@ -1374,6 +1486,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 72.39) (xy 184.15 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3905d06a-952b-44a5-b22c-dbe681c55504")
+	)
+	(wire
+		(pts
 			(xy 78.74 77.47) (xy 78.74 80.01)
 		)
 		(stroke
@@ -1384,7 +1506,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 62.23) (xy 186.69 63.5)
+			(xy 191.77 62.23) (xy 191.77 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 62.23) (xy 190.5 62.23)
+			(xy 191.77 62.23) (xy 195.58 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1464,6 +1586,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 73.66) (xy 195.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f0c25c-d420-4f8c-a987-61e4a74d21eb")
+	)
+	(wire
+		(pts
 			(xy 121.92 82.55) (xy 121.92 77.47)
 		)
 		(stroke
@@ -1481,16 +1613,6 @@
 			(type default)
 		)
 		(uuid "b8d17003-c509-4e03-8ce6-a39bf209f6bd")
-	)
-	(wire
-		(pts
-			(xy 180.34 73.66) (xy 190.5 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9847a46-9776-4431-99cf-fffd466b5d12")
 	)
 	(wire
 		(pts
@@ -1524,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 62.23) (xy 190.5 71.12)
+			(xy 195.58 62.23) (xy 195.58 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2301,6 +2423,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 184.15 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f594e7b-1770-4a17-85ed-5a32071e8965")
+		(property "Reference" "#FLG01"
+			(at 184.15 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 184.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75fd1c51-84be-46c8-8382-dc7caad8852b")
+		)
+		(instances
+			(project ""
+				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/8d42d8f3-e666-4352-a3e9-99ac4271efe0"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 134.62 140.97 0)
 		(unit 1)
@@ -2372,7 +2560,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 195.58 71.12 0)
+		(at 200.66 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2381,7 +2569,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f6e0c6e-3332-4ea1-bab9-5294942a1ddf")
 		(property "Reference" "J?"
-			(at 198.12 71.1199 0)
+			(at 203.2 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2578,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 198.12 73.6599 0)
+			(at 203.2 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2587,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 195.58 71.12 0)
+			(at 200.66 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2596,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 71.12 0)
+			(at 200.66 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2605,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 195.58 71.12 0)
+			(at 200.66 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +3041,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 63.5 0)
+		(at 191.77 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2862,7 +3050,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf0e9a44-e7fb-4449-a1ae-d3c6776018f0")
 		(property "Reference" "#PWR061"
-			(at 186.69 69.85 0)
+			(at 191.77 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2871,7 +3059,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 68.58 0)
+			(at 191.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +3067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 63.5 0)
+			(at 191.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +3076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 63.5 0)
+			(at 191.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +3085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 63.5 0)
+			(at 191.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
