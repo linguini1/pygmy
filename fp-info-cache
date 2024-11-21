@@ -1,4 +1,4 @@
-24096841672391586
+24095116321625891
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63720,13 +63720,6 @@ solder jumper open
 0
 5
 3
-KiCad
-TESEOLIV3R
-LCC-18 (9.7 mm x 10.1 mm) 
-Integrated Circuit
-0
-18
-18
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -97523,6 +97516,13 @@ Varistor VF
 0
 2
 2
+buzzer
+XDCR_AI-1223-TWT-3V-2-R
+
+
+0
+2
+2
 lsm6dso32
 XDCR_LSM6DSO32TR
 
@@ -97544,10 +97544,3 @@ MOLEX_1726480102
 0
 2
 2
-regulator
-SON65P200X200X80-7N
-DRV0006C
-Integrated Circuit
-0
-7
-7

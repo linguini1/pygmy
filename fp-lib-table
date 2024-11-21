@@ -3,4 +3,5 @@
   (lib (name "lsm6dso32")(type "KiCad")(uri "${KIPRJMOD}/lsm6dso32")(options "")(descr ""))
   (lib (name "microsd")(type "KiCad")(uri "${KIPRJMOD}/microsd")(options "")(descr ""))
   (lib (name "minifit-jr")(type "KiCad")(uri "${KIPRJMOD}/minifit-jr")(options "")(descr ""))
+  (lib (name "buzzer")(type "KiCad")(uri "${KIPRJMOD}/buzzer")(options "")(descr ""))
 )
