@@ -1,0 +1,17 @@
+Power draw per component:
+
+Component | Max draw (mA)| Comment
+----------|--------------|--------------
+RN2483    | 32           | 
+SAM-M8Q   | 67           | 
+MS5607    | 1.4          | 
+LIS2MDL   | 0.2          | 
+M24C32    | 5            | 
+LSM6DSO32 | 0.55         | 
+MicroSD   | 163          | This is a maximum figure for 4-bit SDMMC. It should really be 30-60 in SPI mode
+RP2040    | 100          | This is very generous. The RP2040 consumes 24mA completely idle.
+
+Total max draw: 369.15
+
+This is sufficient to be powered using regulators rated for 500mA, and to be powered by USB connection at full
+operation.

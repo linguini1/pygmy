@@ -3,6 +3,4 @@
   (lib (name "lsm6dso32")(type "KiCad")(uri "${KIPRJMOD}/lsm6dso32")(options "")(descr ""))
   (lib (name "microsd")(type "KiCad")(uri "${KIPRJMOD}/microsd")(options "")(descr ""))
   (lib (name "minifit-jr")(type "KiCad")(uri "${KIPRJMOD}/minifit-jr")(options "")(descr ""))
-  (lib (name "regulator")(type "KiCad")(uri "${KIPRJMOD}/regulator")(options "")(descr ""))
-  (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/gps/KiCad")(options "")(descr ""))
 )

@@ -1513,6 +1513,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 92.71) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac96334-f3d2-4ecc-b3e4-e733cf6e84b7")
+	)
+	(wire
+		(pts
 			(xy 95.25 85.09) (xy 95.25 93.98)
 		)
 		(stroke
@@ -1583,6 +1593,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 92.71) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce61294-cde8-4a2c-9dde-5243c84c42ae")
+	)
+	(wire
+		(pts
 			(xy 190.5 77.47) (xy 204.47 77.47)
 		)
 		(stroke
@@ -1610,36 +1630,6 @@
 			(type default)
 		)
 		(uuid "a390845e-3bc7-403b-bfb6-38fdc52458d9")
-	)
-	(wire
-		(pts
-			(xy 184.15 92.71) (xy 167.64 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a854f949-3e69-4467-9853-18c822631699")
-	)
-	(wire
-		(pts
-			(xy 109.22 92.71) (xy 127 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8d8071a-00e0-4ffd-8df1-569dfc005ea6")
-	)
-	(wire
-		(pts
-			(xy 120.65 80.01) (xy 127 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa9b19eb-1021-4a60-bc95-48ad5bb0bb4d")
 	)
 	(wire
 		(pts
@@ -1711,38 +1701,71 @@
 		)
 		(uuid "8ad6b8d6-0a05-4dcc-81c7-dad822fb286b")
 	)
-	(label "RST_N"
-		(at 120.65 80.01 0)
+	(global_label "MCU_UART1_TX"
+		(shape input)
+		(at 121.92 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "8ac35cb7-aea3-4b8f-967a-57a1b6b686bd")
+		(uuid "80441720-8a17-43af-92b3-26e77148e917")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.9044 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "MCU_UART1_RX"
-		(at 184.15 92.71 180)
+	(global_label "RST_N"
+		(shape input)
+		(at 127 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "968950f2-894c-4f48-b639-c92202d47dd2")
+		(uuid "f8394467-3d20-41c4-aeb5-4a7fabc46665")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.2696 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "MCU_UART1_TX"
-		(at 109.22 92.71 0)
+	(global_label "MCU_UART1_RX"
+		(shape input)
+		(at 172.72 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f22a5f70-925c-4e8f-87b3-93de8d090277")
+		(uuid "fb0f523b-ed3a-489a-ab90-6dcf77c274fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.038 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1754,7 +1777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ba83556-4b6d-457c-8333-33acb031a4f7")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR059"
 			(at 95.25 100.33 0)
 			(effects
 				(font
@@ -1804,7 +1827,7 @@
 		(instances
 			(project ""
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/4aee52ff-1633-42f1-aa90-3806408b7a97"
-					(reference "#PWR067")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1820,7 +1843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2576a072-bca4-4d53-a1a9-1b412b811f3b")
-		(property "Reference" "C?"
+		(property "Reference" "C27"
 			(at 208.28 72.3899 0)
 			(effects
 				(font
@@ -1874,7 +1897,7 @@
 		(instances
 			(project ""
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/4aee52ff-1633-42f1-aa90-3806408b7a97"
-					(reference "C?")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -1890,7 +1913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25fd97a4-f717-4261-806a-cbd373a952c7")
-		(property "Reference" "C?"
+		(property "Reference" "C25"
 			(at 181.61 72.3899 0)
 			(effects
 				(font
@@ -1944,7 +1967,7 @@
 		(instances
 			(project "flight-computer"
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/4aee52ff-1633-42f1-aa90-3806408b7a97"
-					(reference "C?")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -1960,7 +1983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c9f6646-cd86-42f3-9b27-3fb157884e11")
-		(property "Reference" "MODULE?"
+		(property "Reference" "MODULE1"
 			(at 147.32 67.31 0)
 			(effects
 				(font
@@ -2217,7 +2240,7 @@
 		(instances
 			(project ""
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/4aee52ff-1633-42f1-aa90-3806408b7a97"
-					(reference "MODULE?")
+					(reference "MODULE1")
 					(unit 1)
 				)
 			)
@@ -2233,7 +2256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95cc8535-350d-4607-9fd5-2552a1e005e5")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 102.1195 78.74 0)
 			(effects
 				(font
@@ -2285,7 +2308,7 @@
 		(instances
 			(project ""
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/4aee52ff-1633-42f1-aa90-3806408b7a97"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2301,7 +2324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99d4cec4-5939-43e7-9759-ea1423e24a94")
-		(property "Reference" "C?"
+		(property "Reference" "C26"
 			(at 194.31 72.3899 0)
 			(effects
 				(font
@@ -2355,7 +2378,7 @@
 		(instances
 			(project "flight-computer"
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/4aee52ff-1633-42f1-aa90-3806408b7a97"
-					(reference "C?")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2371,7 +2394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d33d9c6-3b6f-4343-8224-827716ac4e40")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR060"
 			(at 170.18 146.05 0)
 			(effects
 				(font
@@ -2421,7 +2444,7 @@
 		(instances
 			(project ""
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/4aee52ff-1633-42f1-aa90-3806408b7a97"
-					(reference "#PWR011")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2437,7 +2460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0e7a16b-45f3-4e73-9225-d6e2c9f48f1b")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR058"
 			(at 190.5 83.82 0)
 			(effects
 				(font
@@ -2487,7 +2510,7 @@
 		(instances
 			(project ""
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/4aee52ff-1633-42f1-aa90-3806408b7a97"
-					(reference "#PWR066")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2503,7 +2526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f19498b1-e6a0-4915-8bbd-f693819185c7")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR057"
 			(at 167.64 71.12 0)
 			(effects
 				(font
@@ -2512,7 +2535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 167.64 62.23 0)
 			(effects
 				(font
@@ -2553,7 +2576,7 @@
 		(instances
 			(project ""
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/4aee52ff-1633-42f1-aa90-3806408b7a97"
-					(reference "#PWR013")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
