@@ -11,6 +11,288 @@
 		(company "Matteo Golin")
 	)
 	(lib_symbols
+		(symbol "AI-1223-TWT-3V-2-R:AI-1223-TWT-3V-2-R"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LS"
+				(at -1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AI-1223-TWT-3V-2-R"
+				(at -1.27 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AI-1223-TWT-3V-2-R:XDCR_AI-1223-TWT-3V-2-R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "3/18/2020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7.8 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "PUI Audio"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "AI-1223-TWT-3V-2-R_0_0"
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -5.08 2.54 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "-"
+					(at -5.08 -5.08 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -692,164 +974,6 @@
 						)
 					)
 					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:Buzzer"
-			(pin_names
-				(offset 0.0254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BZ"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Buzzer"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Buzzer, polarized"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz resonator ceramic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Buzzer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Buzzer_0_1"
-				(arc
-					(start 0 -3.175)
-					(mid 3.1612 0)
-					(end 0 3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Buzzer_1_1"
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4709,6 +4833,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 234.95) (xy 317.5 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0809ac16-1535-407c-b5b2-c473872d7dc2")
+	)
+	(wire
+		(pts
 			(xy 39.37 143.51) (xy 50.8 143.51)
 		)
 		(stroke
@@ -4886,16 +5020,6 @@
 			(type default)
 		)
 		(uuid "35638597-0146-494e-99f7-503fb473c434")
-	)
-	(wire
-		(pts
-			(xy 316.23 226.06) (xy 316.23 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3844fdc4-39bc-44a9-aa90-655e03c54fd2")
 	)
 	(wire
 		(pts
@@ -5256,6 +5380,16 @@
 			(type default)
 		)
 		(uuid "7cd582d7-3cd7-49ef-966b-5f310b32adcb")
+	)
+	(wire
+		(pts
+			(xy 317.5 234.95) (xy 317.5 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f74c80e-c8d3-4c26-9250-3c5876e92f32")
 	)
 	(wire
 		(pts
@@ -5669,7 +5803,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 228.6) (xy 317.5 228.6)
+			(xy 316.23 224.79) (xy 322.58 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5889,7 +6023,7 @@
 	)
 	(rectangle
 		(start 307.3134 219.8042)
-		(end 340.36 251.1317)
+		(end 345.44 251.1317)
 		(stroke
 			(width 0)
 			(type default)
@@ -6548,7 +6682,7 @@
 		(uuid "7d95e8ca-e2eb-47ec-b5e2-f22ef087e8ed")
 	)
 	(label "BUZZ"
-		(at 316.23 226.06 0)
+		(at 316.23 224.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6912,7 +7046,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 317.5 241.3 0)
+		(at 317.5 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6921,7 +7055,7 @@
 		(fields_autoplaced yes)
 		(uuid "01352087-4598-4fb8-94ce-967a220f1a21")
 		(property "Reference" "#PWR037"
-			(at 317.5 247.65 0)
+			(at 317.5 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +7064,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 317.5 246.38 0)
+			(at 317.5 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,7 +7072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 317.5 241.3 0)
+			(at 317.5 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +7081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 241.3 0)
+			(at 317.5 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +7090,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 317.5 241.3 0)
+			(at 317.5 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11538,17 +11672,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Buzzer")
-		(at 320.04 231.14 0)
+		(lib_id "AI-1223-TWT-3V-2-R:AI-1223-TWT-3V-2-R")
+		(at 325.12 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b25ffdcb-1be6-4788-808f-e4bd78ed6dab")
-		(property "Reference" "BZ1"
-			(at 323.85 229.8699 0)
+		(uuid "b35795fc-d5cf-4d7a-b008-87f8cf353c2f")
+		(property "Reference" "LS1"
+			(at 328.93 228.7442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11556,8 +11690,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Active Buzzer"
-			(at 323.85 232.4099 0)
+		(property "Value" "ACTIVE BUZZER"
+			(at 328.93 231.2842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11566,7 +11700,17 @@
 			)
 		)
 		(property "Footprint" "buzzer:XDCR_AI-1223-TWT-3V-2-R"
-			(at 319.405 228.6 90)
+			(at 325.12 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11574,8 +11718,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 319.405 228.6 90)
+		(property "Description" ""
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11583,25 +11727,56 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buzzer, polarized"
-			(at 320.04 231.14 0)
+		(property "PARTREV" "3/18/2020"
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4f35ea26-8aff-4d15-9c93-219726ec9115")
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 325.12 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "3b369188-fe1f-49db-b20f-2f5b55d17cd4")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.8 mm"
+			(at 325.12 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "PUI Audio"
+			(at 325.12 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "32c4f4b2-3b9b-40ff-9b5e-a62b1382630c")
+		)
+		(pin "P"
+			(uuid "4fea5a7c-1683-450e-ac39-99c80074a051")
 		)
 		(instances
 			(project ""
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97"
-					(reference "BZ1")
+					(reference "LS1")
 					(unit 1)
 				)
 			)
@@ -11679,7 +11854,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 317.5 237.49 0)
+		(at 317.5 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11688,15 +11863,6 @@
 		(fields_autoplaced yes)
 		(uuid "c1003dea-e19d-4709-9b47-f82cfcb2608c")
 		(property "Reference" "R15"
-			(at 320.04 236.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150R"
 			(at 320.04 238.7599 0)
 			(effects
 				(font
@@ -11705,8 +11871,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "150R"
+			(at 320.04 241.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 315.722 237.49 90)
+			(at 315.722 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11715,7 +11890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 317.5 237.49 0)
+			(at 317.5 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11724,7 +11899,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 317.5 237.49 0)
+			(at 317.5 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

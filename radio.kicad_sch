@@ -1983,7 +1983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c9f6646-cd86-42f3-9b27-3fb157884e11")
-		(property "Reference" "MODULE1"
+		(property "Reference" "U11"
 			(at 147.32 67.31 0)
 			(effects
 				(font
@@ -2240,7 +2240,7 @@
 		(instances
 			(project ""
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/4aee52ff-1633-42f1-aa90-3806408b7a97"
-					(reference "MODULE1")
+					(reference "U11")
 					(unit 1)
 				)
 			)
