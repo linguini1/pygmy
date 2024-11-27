@@ -3822,7 +3822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LPO3310-222MLC:LPO3310222MLC"
 			(at 85.09 73.66 0)
 			(effects
 				(font
