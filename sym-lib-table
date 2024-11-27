@@ -1,8 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "LSM6DSO32TR")(type "KiCad")(uri "${KIPRJMOD}/lsm6dso32/LSM6DSO32TR.kicad_sym")(options "")(descr ""))
-  (lib (name "MEM2067-02-180-00-A_REVB")(type "KiCad")(uri "${KIPRJMOD}/microsd/MEM2067-02-180-00-A_REVB.kicad_sym")(options "")(descr ""))
-  (lib (name "1726480102")(type "KiCad")(uri "${KIPRJMOD}/minifit-jr/1726480102.kicad_sym")(options "")(descr ""))
-  (lib (name "RN2483")(type "KiCad")(uri "${KIPRJMOD}/rn2483/RN2483-I_RM095.kicad_sym")(options "")(descr ""))
-  (lib (name "AI-1223-TWT-3V-2-R")(type "KiCad")(uri "${KIPRJMOD}/buzzer/AI-1223-TWT-3V-2-R.kicad_sym")(options "")(descr ""))
-)
