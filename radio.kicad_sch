@@ -1501,7 +1501,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 97.79) (xy 179.07 105.41)
+			(xy 184.15 97.79) (xy 184.15 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1601,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 97.79) (xy 167.64 97.79)
+			(xy 176.53 97.79) (xy 167.64 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1621,7 +1621,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 97.79) (xy 175.26 97.79)
+			(xy 184.15 97.79) (xy 181.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +1651,7 @@
 	)
 	(text "915MHz\n902-928MHz\n"
 		(exclude_from_sim no)
-		(at 187.452 100.584 0)
+		(at 192.786 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1681,13 +1681,24 @@
 	)
 	(text "Based on typical hardware application note in\nsection 3.0 of the RN2903 datasheet."
 		(exclude_from_sim no)
-		(at 146.558 52.832 0)
+		(at 146.812 61.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "8ad6b8d6-0a05-4dcc-81c7-dad822fb286b")
+	)
+	(label "RF_SIG"
+		(at 168.91 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63efa471-2824-4fa7-b268-bfec591e31e5")
 	)
 	(global_label "MCU_UART1_TX"
 		(shape input)
@@ -1757,7 +1768,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 105.41 0)
+		(at 184.15 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1766,7 +1777,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ba83556-4b6d-457c-8333-33acb031a4f7")
 		(property "Reference" "#PWR059"
-			(at 179.07 111.76 0)
+			(at 184.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1786,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 106.6799 0)
+			(at 186.69 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +1795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 105.41 0)
+			(at 184.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 105.41 0)
+			(at 184.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1813,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 105.41 0)
+			(at 184.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e81992c-b9f7-48d8-9032-6d76a81ec7a0")
-		(property "Reference" "U?"
+		(property "Reference" "U11"
 			(at 147.32 77.47 0)
 			(effects
 				(font
@@ -1980,7 +1991,7 @@
 				)
 			)
 		)
-		(property "Value" "RN2903-I_RM095"
+		(property "Value" "RN2903"
 			(at 147.32 80.01 0)
 			(effects
 				(font
@@ -1988,7 +1999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RN2903-I_RM095:XCVR_RN2903-I_RM095"
+		(property "Footprint" "RF_Module:RN2903"
 			(at 147.32 107.95 0)
 			(effects
 				(font
@@ -2226,7 +2237,7 @@
 		(instances
 			(project ""
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/4aee52ff-1633-42f1-aa90-3806408b7a97"
-					(reference "U?")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -2234,7 +2245,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 172.72 97.79 0)
+		(at 179.07 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2243,7 +2254,7 @@
 		(fields_autoplaced yes)
 		(uuid "95cc8535-350d-4607-9fd5-2552a1e005e5")
 		(property "Reference" "J3"
-			(at 172.2005 104.14 0)
+			(at 178.5505 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2262,7 @@
 			)
 		)
 		(property "Value" "SMA_Coax"
-			(at 172.2005 101.6 0)
+			(at 178.5505 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2270,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal"
-			(at 172.72 97.79 0)
+			(at 179.07 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2279,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 97.79 0)
+			(at 179.07 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2288,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 172.72 97.79 0)
+			(at 179.07 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
