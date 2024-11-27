@@ -542,12 +542,6 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -559,10 +553,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -610,7 +604,7 @@
           "group_by": false,
           "label": "MP",
           "name": "MP",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -647,13 +641,19 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "MP"
     },
     "connection_grid_size": 50.0,
     "drawing": {

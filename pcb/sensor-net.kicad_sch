@@ -3484,7 +3484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf"
 			(at 152.4 59.69 0)
 			(effects
 				(font
@@ -3494,6 +3494,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "0603B204K160CT"
 			(at 152.4 59.69 0)
 			(effects
 				(font
@@ -3677,7 +3686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 249.8852 107.95 0)
 			(effects
 				(font
@@ -3686,7 +3695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 248.92 104.14 0)
 			(effects
 				(font
@@ -3696,6 +3705,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 248.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 248.92 104.14 0)
 			(effects
 				(font
@@ -3747,7 +3765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.2252 43.18 0)
 			(effects
 				(font
@@ -3756,7 +3774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
 			(at 175.26 39.37 0)
 			(effects
 				(font
@@ -3766,6 +3784,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 175.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R0J106K080AB"
 			(at 175.26 39.37 0)
 			(effects
 				(font
@@ -3975,6 +4002,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "M24C32-FMN6TP"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "d7a853c3-4b48-4bad-a6f7-64d36e05411e")
 		)
@@ -4128,6 +4164,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "LIS2MDLTR"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "14013d96-7cde-4cf4-bcf3-46e0a44a9d5e")
 		)
@@ -4201,7 +4246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 164.7952 43.18 0)
 			(effects
 				(font
@@ -4210,7 +4255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 163.83 39.37 0)
 			(effects
 				(font
@@ -4220,6 +4265,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 163.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 163.83 39.37 0)
 			(effects
 				(font
@@ -4270,7 +4324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 238.4552 107.95 0)
 			(effects
 				(font
@@ -4279,7 +4333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 237.49 104.14 0)
 			(effects
 				(font
@@ -4289,6 +4343,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 237.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 237.49 104.14 0)
 			(effects
 				(font
@@ -4406,7 +4469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.0952 43.18 0)
 			(effects
 				(font
@@ -4415,7 +4478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 151.13 39.37 0)
 			(effects
 				(font
@@ -4425,6 +4488,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 151.13 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 151.13 39.37 0)
 			(effects
 				(font
@@ -4542,7 +4614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.2452 54.61 0)
 			(effects
 				(font
@@ -4551,7 +4623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 81.28 50.8 0)
 			(effects
 				(font
@@ -4561,6 +4633,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 81.28 50.8 0)
 			(effects
 				(font
@@ -4621,7 +4702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -4631,6 +4712,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CGA3E1X5R0J475K080AC"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -5236,6 +5326,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "MS560702BA03-50"
+			(at 63.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "50eedc3e-c0e9-4238-9734-c0601caaaacf")
 		)
@@ -5296,7 +5395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 211.7852 46.99 0)
 			(effects
 				(font
@@ -5305,7 +5404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 210.82 43.18 0)
 			(effects
 				(font
@@ -5315,6 +5414,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 210.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 210.82 43.18 0)
 			(effects
 				(font
@@ -5385,6 +5493,15 @@
 			)
 		)
 		(property "Description" "GPS ublox M8 variant"
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SAM-M8Q-0"
 			(at 71.12 114.3 0)
 			(effects
 				(font
@@ -5498,7 +5615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/389/lsm6dso32-1815462.pdf"
 			(at 212.09 113.03 0)
 			(effects
 				(font
@@ -5553,6 +5670,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LSM6DSO32TR"
+			(at 212.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

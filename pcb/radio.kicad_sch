@@ -1852,7 +1852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "4u7"
 			(at 208.28 81.2799 0)
 			(effects
 				(font
@@ -1870,7 +1870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser"
 			(at 204.47 80.01 0)
 			(effects
 				(font
@@ -1880,6 +1880,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CGA3E1X5R0J475K080AC"
 			(at 204.47 80.01 0)
 			(effects
 				(font
@@ -1931,7 +1940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 178.7652 83.82 0)
 			(effects
 				(font
@@ -1940,7 +1949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 177.8 80.01 0)
 			(effects
 				(font
@@ -1950,6 +1959,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 177.8 80.01 0)
 			(effects
 				(font
@@ -1983,7 +2001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e81992c-b9f7-48d8-9032-6d76a81ec7a0")
-		(property "Reference" "U11"
+		(property "Reference" "U9"
 			(at 147.32 77.47 0)
 			(effects
 				(font
@@ -2009,7 +2027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/268/RN2903_Low_Power_Long_Range_LoRa_Technology_Transc-3444753.pdf"
 			(at 147.32 107.95 0)
 			(effects
 				(font
@@ -2087,7 +2105,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RN2903-I/RM095"
+		(property "MP" "RN2903A-I/RMSA103"
 			(at 147.32 107.95 0)
 			(effects
 				(font
@@ -2237,7 +2255,7 @@
 		(instances
 			(project ""
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97/4aee52ff-1633-42f1-aa90-3806408b7a97"
-					(reference "U11")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2278,7 +2296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/418/9/ENG_CD_2484637_A-3480023.pdf"
 			(at 179.07 97.79 0)
 			(effects
 				(font
@@ -2288,6 +2306,15 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "2484637-1"
 			(at 179.07 97.79 0)
 			(effects
 				(font
@@ -2339,7 +2366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 191.4652 83.82 0)
 			(effects
 				(font
@@ -2348,7 +2375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 190.5 80.01 0)
 			(effects
 				(font
@@ -2358,6 +2385,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 190.5 80.01 0)
 			(effects
 				(font

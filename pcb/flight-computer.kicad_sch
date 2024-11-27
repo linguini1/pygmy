@@ -6058,8 +6058,8 @@
 		(uuid 17b3e50f-662f-4fc1-ac0e-de61e2ed19f3)
 	)
 	(rectangle
-		(start 217.17 221.234)
-		(end 243.84 252.222)
+		(start 216.938 219.8976)
+		(end 243.608 250.8856)
 		(stroke
 			(width 0)
 			(type default)
@@ -6215,6 +6215,26 @@
 		)
 		(uuid "3a767303-ec9a-4c84-85e2-3606fe67819d")
 	)
+	(text "V_F: 2V2\nI_F: 20mA"
+		(exclude_from_sim no)
+		(at 297.18 248.158 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a91adf9-9b2a-42b3-8573-2a1316f975bd")
+	)
+	(text "V_F: 2V2\nI_F: 20mA"
+		(exclude_from_sim no)
+		(at 237.744 247.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4341a656-162e-4ea2-a8e4-f568d8780be2")
+	)
 	(text "VREG_VIN\n"
 		(exclude_from_sim no)
 		(at 251.206 159.258 0)
@@ -6305,6 +6325,16 @@
 		)
 		(uuid "84138b42-a208-4198-a7a4-c1802b65ad01")
 	)
+	(text "V_F: 1V9\nI_F: 20mA"
+		(exclude_from_sim no)
+		(at 265.176 248.412 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ad3d3d6-216e-4429-907a-9b38a81eea75")
+	)
 	(text "Decoupling capacitors"
 		(exclude_from_sim no)
 		(at 217.424 152.654 0)
@@ -6387,7 +6417,7 @@
 	)
 	(text "SD eject"
 		(exclude_from_sim no)
-		(at 230.378 219.456 0)
+		(at 230.146 218.1196 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6440,7 +6470,7 @@
 		(uuid "11188a68-783e-4b2d-b200-b592f8bbacd6")
 	)
 	(label "SD_EJECT"
-		(at 226.06 226.06 0)
+		(at 225.828 224.7236 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7054,7 +7084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01352087-4598-4fb8-94ce-967a220f1a21")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 317.5 250.19 0)
 			(effects
 				(font
@@ -7104,7 +7134,7 @@
 		(instances
 			(project ""
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7154,6 +7184,15 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(at 55.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ABM8-272-T3"
 			(at 55.88 77.47 0)
 			(effects
 				(font
@@ -7418,7 +7457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155C80J225KE95_61A-1983595.pdf"
 			(at 85.09 129.54 0)
 			(effects
 				(font
@@ -7428,6 +7467,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 85.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155C80J225KE95J"
 			(at 85.09 129.54 0)
 			(effects
 				(font
@@ -7453,7 +7501,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 241.3 0)
+		(at 225.828 239.9636 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7462,7 +7510,7 @@
 		(fields_autoplaced yes)
 		(uuid "11ae446a-1544-46cb-bd7c-811eef67baf7")
 		(property "Reference" "#PWR036"
-			(at 226.06 247.65 0)
+			(at 225.828 246.3136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +7519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 246.38 0)
+			(at 225.828 245.0436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +7527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 241.3 0)
+			(at 225.828 239.9636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +7536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 241.3 0)
+			(at 225.828 239.9636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +7545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 241.3 0)
+			(at 225.828 239.9636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,7 +7590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 158.75 235.458 90)
 			(effects
 				(font
@@ -7551,7 +7599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?28705"
 			(at 158.75 233.68 0)
 			(effects
 				(font
@@ -7561,6 +7609,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 158.75 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "MCS04020C5101FE000"
 			(at 158.75 233.68 0)
 			(effects
 				(font
@@ -7611,7 +7668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 223.2152 175.26 0)
 			(effects
 				(font
@@ -7620,7 +7677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 222.25 171.45 0)
 			(effects
 				(font
@@ -7630,6 +7687,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 222.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 222.25 171.45 0)
 			(effects
 				(font
@@ -7681,7 +7747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 266.3952 175.26 0)
 			(effects
 				(font
@@ -7690,7 +7756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 265.43 171.45 0)
 			(effects
 				(font
@@ -7700,6 +7766,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 265.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 265.43 171.45 0)
 			(effects
 				(font
@@ -7733,7 +7808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1981a8cc-05d6-432d-815e-53c76b1fc607")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 161.29 246.38 0)
 			(effects
 				(font
@@ -7783,7 +7858,7 @@
 		(instances
 			(project "flight-computer"
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7816,7 +7891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.9152 175.26 0)
 			(effects
 				(font
@@ -7825,7 +7900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 234.95 171.45 0)
 			(effects
 				(font
@@ -7835,6 +7910,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 234.95 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 234.95 171.45 0)
 			(effects
 				(font
@@ -7952,7 +8036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.3552 133.35 0)
 			(effects
 				(font
@@ -7961,7 +8045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 72.39 129.54 0)
 			(effects
 				(font
@@ -7971,6 +8055,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 72.39 129.54 0)
 			(effects
 				(font
@@ -8088,7 +8181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 173.6852 176.53 0)
 			(effects
 				(font
@@ -8097,7 +8190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 172.72 172.72 0)
 			(effects
 				(font
@@ -8107,6 +8200,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 172.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 172.72 172.72 0)
 			(effects
 				(font
@@ -8290,7 +8392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 248.412 55.88 90)
 			(effects
 				(font
@@ -8299,7 +8401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 250.19 55.88 0)
 			(effects
 				(font
@@ -8309,6 +8411,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 250.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERA-2AEB222X"
 			(at 250.19 55.88 0)
 			(effects
 				(font
@@ -8370,7 +8481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/837/MEM2067-2887310.pdf"
 			(at 50.8 237.49 0)
 			(effects
 				(font
@@ -8395,6 +8506,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MEM2067-02-180-00-A"
+			(at 50.8 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8546,7 +8666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/588/prd_pim_datasheet_2191277_EN_pdf-3419125.pdf"
 			(at 285.75 228.6 0)
 			(effects
 				(font
@@ -8556,6 +8676,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 285.75 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "LG R971-KN-1"
 			(at 285.75 228.6 0)
 			(effects
 				(font
@@ -8738,7 +8867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 150.8252 176.53 0)
 			(effects
 				(font
@@ -8747,7 +8876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 149.86 172.72 0)
 			(effects
 				(font
@@ -8757,6 +8886,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 149.86 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 149.86 172.72 0)
 			(effects
 				(font
@@ -8782,7 +8920,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 226.06 237.49 0)
+		(at 225.828 236.1536 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8791,7 +8929,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e0e7a3c-a19e-42aa-8a88-e15d396a0f75")
 		(property "Reference" "R14"
-			(at 228.6 236.2199 0)
+			(at 228.6 234.8835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,8 +8937,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 228.6 238.7599 0)
+		(property "Value" "68R"
+			(at 228.6 237.4235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,8 +8946,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 224.282 237.49 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 224.05 236.1536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,8 +8955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 226.06 237.49 0)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
+			(at 225.828 236.1536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,7 +8965,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 226.06 237.49 0)
+			(at 225.828 236.1536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERA-2AED680X"
+			(at 225.828 236.1536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +9032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/837/usb4215-3472997.pdf"
 			(at 130.81 241.3 0)
 			(effects
 				(font
@@ -8895,6 +9042,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 127 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "USB4215-03-A"
 			(at 127 241.3 0)
 			(effects
 				(font
@@ -9121,7 +9277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 158.75 65.278 90)
 			(effects
 				(font
@@ -9130,7 +9286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 158.75 63.5 0)
 			(effects
 				(font
@@ -9140,6 +9296,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 158.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERA-2AKD270X"
 			(at 158.75 63.5 0)
 			(effects
 				(font
@@ -9191,7 +9356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 196.5452 176.53 0)
 			(effects
 				(font
@@ -9200,7 +9365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 195.58 172.72 0)
 			(effects
 				(font
@@ -9210,6 +9375,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 195.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 195.58 172.72 0)
 			(effects
 				(font
@@ -9400,7 +9574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/1628/ts02-3511329.pdf"
 			(at 44.45 33.02 0)
 			(effects
 				(font
@@ -9410,6 +9584,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TS02-66-50-BK-160-SCR-D"
 			(at 44.45 38.1 0)
 			(effects
 				(font
@@ -9725,7 +9908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 207.9752 176.53 0)
 			(effects
 				(font
@@ -9734,7 +9917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 207.01 172.72 0)
 			(effects
 				(font
@@ -9744,6 +9927,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 207.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 207.01 172.72 0)
 			(effects
 				(font
@@ -9804,7 +9996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/40/U_Series-2942365.pdf"
 			(at 63.5 82.55 0)
 			(effects
 				(font
@@ -9814,6 +10006,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "04023U140GAT2A"
 			(at 63.5 82.55 0)
 			(effects
 				(font
@@ -9958,6 +10159,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "W25Q16JVSSIQ"
+			(at 60.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d351e081-0b6f-4be9-99c5-940acfd50b7b")
 		)
@@ -10019,7 +10229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.792 55.88 90)
 			(effects
 				(font
@@ -10028,7 +10238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 242.57 55.88 0)
 			(effects
 				(font
@@ -10038,6 +10248,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 242.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERA-2AEB222X"
 			(at 242.57 55.88 0)
 			(effects
 				(font
@@ -10087,7 +10306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 69.85 79.248 90)
 			(effects
 				(font
@@ -10096,7 +10315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 69.85 77.47 0)
 			(effects
 				(font
@@ -10106,6 +10325,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 69.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERA-2AEB102X"
 			(at 69.85 77.47 0)
 			(effects
 				(font
@@ -10244,6 +10472,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 161.29 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "USBLC6-2SC6"
 			(at 161.29 247.65 0)
 			(effects
 				(font
@@ -10446,7 +10683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/1628/ts02-3511329.pdf"
 			(at 86.36 36.83 0)
 			(effects
 				(font
@@ -10456,6 +10693,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 86.36 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TS02-66-50-BK-160-SCR-D"
 			(at 86.36 41.91 0)
 			(effects
 				(font
@@ -10507,7 +10753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.2552 176.53 0)
 			(effects
 				(font
@@ -10516,7 +10762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 161.29 172.72 0)
 			(effects
 				(font
@@ -10526,6 +10772,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 161.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 161.29 172.72 0)
 			(effects
 				(font
@@ -10577,7 +10832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 281.6352 175.26 0)
 			(effects
 				(font
@@ -10586,7 +10841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 280.67 171.45 0)
 			(effects
 				(font
@@ -10596,6 +10851,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 280.67 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 280.67 171.45 0)
 			(effects
 				(font
@@ -10721,7 +10985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/40/U_Series-2942365.pdf"
 			(at 48.26 82.55 0)
 			(effects
 				(font
@@ -10731,6 +10995,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 48.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "04023U140GAT2A"
 			(at 48.26 82.55 0)
 			(effects
 				(font
@@ -10914,7 +11187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 97.282 36.83 90)
 			(effects
 				(font
@@ -10923,7 +11196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 99.06 36.83 0)
 			(effects
 				(font
@@ -10933,6 +11206,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 99.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERA-2AEB113X"
 			(at 99.06 36.83 0)
 			(effects
 				(font
@@ -10975,7 +11257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "68R"
 			(at 288.29 237.4899 0)
 			(effects
 				(font
@@ -10984,7 +11266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 283.972 236.22 90)
 			(effects
 				(font
@@ -10993,7 +11275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 285.75 236.22 0)
 			(effects
 				(font
@@ -11003,6 +11285,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 285.75 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERA-2AED680X"
 			(at 285.75 236.22 0)
 			(effects
 				(font
@@ -11054,7 +11345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 272.542 55.88 90)
 			(effects
 				(font
@@ -11063,7 +11354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 274.32 55.88 0)
 			(effects
 				(font
@@ -11073,6 +11364,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 274.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERA-2AEB222X"
 			(at 274.32 55.88 0)
 			(effects
 				(font
@@ -11098,7 +11398,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 226.06 229.87 90)
+		(at 225.828 228.5336 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11107,7 +11407,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaf5f2ca-70fa-4c58-9355-eb09ebf57015")
 		(property "Reference" "D3"
-			(at 229.87 230.1874 90)
+			(at 229.638 228.851 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11116,7 +11416,7 @@
 			)
 		)
 		(property "Value" "GREEN LED"
-			(at 229.87 232.7274 90)
+			(at 229.638 231.391 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11425,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 226.06 229.87 0)
+			(at 225.828 228.5336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11133,8 +11433,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 226.06 229.87 0)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/588/prd_pim_datasheet_2191277_EN_pdf-3419125.pdf"
+			(at 225.828 228.5336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11143,7 +11443,16 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 226.06 229.87 0)
+			(at 225.828 228.5336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "LG R971-KN-1"
+			(at 225.828 228.5336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11192,7 +11501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.1 62.738 90)
 			(effects
 				(font
@@ -11201,7 +11510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 165.1 60.96 0)
 			(effects
 				(font
@@ -11211,6 +11520,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERA-2AKD270X"
 			(at 165.1 60.96 0)
 			(effects
 				(font
@@ -11271,7 +11589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 250.19 171.45 0)
 			(effects
 				(font
@@ -11281,6 +11599,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 250.19 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "06036C105MAT2A"
 			(at 250.19 171.45 0)
 			(effects
 				(font
@@ -11351,6 +11678,15 @@
 			)
 		)
 		(property "Description" "A microcontroller by Raspberry Pi"
+			(at 196.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SC0914(13)"
 			(at 196.85 91.44 0)
 			(effects
 				(font
@@ -11709,7 +12045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/334/AI-1223-TWT-3V-2-R-532205.pdf"
 			(at 325.12 229.87 0)
 			(effects
 				(font
@@ -11767,6 +12103,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "AI-1223-TWT-3V-2-R"
+			(at 325.12 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "N"
 			(uuid "32c4f4b2-3b9b-40ff-9b5e-a62b1382630c")
 		)
@@ -11801,7 +12146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100R"
 			(at 257.81 237.4899 0)
 			(effects
 				(font
@@ -11810,7 +12155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 253.492 236.22 90)
 			(effects
 				(font
@@ -11819,7 +12164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C334-1314047.pdf"
 			(at 255.27 236.22 0)
 			(effects
 				(font
@@ -11829,6 +12174,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 255.27 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ-U02J101X"
 			(at 255.27 236.22 0)
 			(effects
 				(font
@@ -11880,7 +12234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 315.722 240.03 90)
 			(effects
 				(font
@@ -11889,7 +12243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 317.5 240.03 0)
 			(effects
 				(font
@@ -11899,6 +12253,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 317.5 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERA-2AED151X"
 			(at 317.5 240.03 0)
 			(effects
 				(font
@@ -12014,7 +12377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 53.34 39.878 90)
 			(effects
 				(font
@@ -12023,7 +12386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -12033,6 +12396,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERA-2AEB102X"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -12147,7 +12519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.1 232.918 90)
 			(effects
 				(font
@@ -12156,7 +12528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?28705"
 			(at 165.1 231.14 0)
 			(effects
 				(font
@@ -12166,6 +12538,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 165.1 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "MCS04020C5101FE000"
 			(at 165.1 231.14 0)
 			(effects
 				(font
@@ -12414,7 +12795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.1152 176.53 0)
 			(effects
 				(font
@@ -12423,7 +12804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/281/1/GRM155R61A104KA01_02A-1983866.pdf"
 			(at 184.15 172.72 0)
 			(effects
 				(font
@@ -12433,6 +12814,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 184.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155R61A104KA01J "
 			(at 184.15 172.72 0)
 			(effects
 				(font
@@ -12559,7 +12949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/678/av02-0112en-ds-hsmx-c1xx-29sep2010-1827222.pdf"
 			(at 255.27 228.6 0)
 			(effects
 				(font
@@ -12569,6 +12959,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 255.27 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "HSMC-C170-T0000"
 			(at 255.27 228.6 0)
 			(effects
 				(font
@@ -12818,7 +13217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.922 55.88 90)
 			(effects
 				(font
@@ -12827,7 +13226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 266.7 55.88 0)
 			(effects
 				(font
@@ -12837,6 +13236,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 266.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERA-2AEB222X"
 			(at 266.7 55.88 0)
 			(effects
 				(font
