@@ -3726,9 +3726,9 @@
 		)
 		(uuid "de7e322d-0d56-4ccc-8007-853d089382f5")
 	)
-	(text "Max 67mA draw"
+	(text "Max 50mA draw"
 		(exclude_from_sim no)
-		(at 54.102 132.842 0)
+		(at 47.244 132.842 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5313,7 +5313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/1052/Quectel_7_14_2022_Quectel_LC86G_GNSS_Specification-3000079.pdf"
 			(at 72.39 111.76 0)
 			(effects
 				(font
@@ -5411,7 +5411,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "LC86G"
+		(property "MP" "LC86GLAMD"
 			(at 72.39 111.76 0)
 			(effects
 				(font
