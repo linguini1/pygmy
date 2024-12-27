@@ -6165,16 +6165,6 @@
 		)
 		(uuid d9616e71-5871-4519-a27b-6323c8b3336f)
 	)
-	(text "Pullup sized for GPS"
-		(exclude_from_sim no)
-		(at 104.394 48.006 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "00829548-94b7-45e8-884f-4cff96d9c992")
-	)
 	(text "Auditory arming indicator"
 		(exclude_from_sim no)
 		(at 324.358 218.44 0)
@@ -10674,7 +10664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 86.36 36.83 0)
 			(effects
 				(font
@@ -10683,7 +10673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/2/1628/ts02-3511329.pdf"
+		(property "Datasheet" ""
 			(at 86.36 36.83 0)
 			(effects
 				(font
@@ -10701,7 +10691,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "TS02-66-50-BK-160-SCR-D"
+		(property "MP" ""
 			(at 86.36 41.91 0)
 			(effects
 				(font
