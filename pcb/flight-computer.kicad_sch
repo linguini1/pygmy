@@ -5186,7 +5186,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 60.96) (xy 171.45 60.96)
+			(xy 165.1 60.96) (xy 171.45 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5236,7 +5236,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 63.5) (xy 154.94 63.5)
+			(xy 143.51 63.5) (xy 151.13 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5556,7 +5556,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 60.96) (xy 161.29 60.96)
+			(xy 143.51 60.96) (xy 157.48 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5696,7 +5696,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 63.5) (xy 171.45 63.5)
+			(xy 158.75 63.5) (xy 171.45 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6531,6 +6531,17 @@
 		)
 		(uuid "01dfb1da-e2ce-453e-833b-12737222387c")
 	)
+	(label "RD+"
+		(at 166.37 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c91a53a-cdf1-46b8-8598-c201a2ec8057")
+	)
 	(label "SPI1_CS"
 		(at 34.29 237.49 0)
 		(fields_autoplaced yes)
@@ -6663,6 +6674,17 @@
 		)
 		(uuid "3c2c9772-fbbd-49cc-9b88-d21b7b517d90")
 	)
+	(label "RD-"
+		(at 166.37 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c3c4236-fafc-447b-ad87-a94c18d3af68")
+	)
 	(label "MCU_D-"
 		(at 166.37 247.65 0)
 		(fields_autoplaced yes)
@@ -6719,7 +6741,7 @@
 		(uuid "529f5ce5-7290-4b2e-aaf2-474d693470f3")
 	)
 	(label "MCU_D-"
-		(at 147.32 63.5 0)
+		(at 143.51 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6917,7 +6939,7 @@
 		(uuid "efeedeb9-1ce6-4fd7-bb02-1067d24e0210")
 	)
 	(label "MCU_D+"
-		(at 147.32 60.96 0)
+		(at 143.51 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9478,7 +9500,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 63.5 90)
+		(at 154.94 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9487,7 +9509,7 @@
 		(fields_autoplaced yes)
 		(uuid "43b2ef45-8748-4da1-8cd3-30ebde0a96d0")
 		(property "Reference" "R8"
-			(at 158.75 57.15 90)
+			(at 154.94 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +9517,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 158.75 59.69 90)
+			(at 154.94 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9503,7 +9525,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 158.75 65.278 90)
+			(at 154.94 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9512,7 +9534,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
-			(at 158.75 63.5 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,7 +9543,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 63.5 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9530,7 +9552,7 @@
 			)
 		)
 		(property "MP" "ERA-2AKD270X"
-			(at 158.75 63.5 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11767,7 +11789,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 165.1 60.96 90)
+		(at 161.29 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11776,7 +11798,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab10251c-704f-4280-9bf6-db0372f2d367")
 		(property "Reference" "R7"
-			(at 165.1 54.61 90)
+			(at 161.29 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11784,7 +11806,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 165.1 57.15 90)
+			(at 161.29 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11792,7 +11814,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.1 62.738 90)
+			(at 161.29 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11801,7 +11823,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
-			(at 165.1 60.96 0)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11810,7 +11832,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 165.1 60.96 0)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11819,7 +11841,7 @@
 			)
 		)
 		(property "MP" "ERA-2AKD270X"
-			(at 165.1 60.96 0)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

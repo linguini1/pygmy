@@ -1406,25 +1406,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q1"
+				(at 8.89 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -1433,7 +1431,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(property "Datasheet" "https://www.vishay.com/doc?67690"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1469,8 +1467,17 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
+			(property "Sim.Pins" "1=G 2=S 3=D"
 				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MP" "SI2329DS-T1-GE3"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1655,10 +1662,10 @@
 				)
 			)
 			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1673,10 +1680,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1692,9 +1699,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2151,16 +2158,16 @@
 		(uuid "0095231e-3beb-47df-bb42-6a6099f02e60")
 	)
 	(junction
+		(at 81.28 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ac05ade-c7ac-41e2-96b4-169385e43f1b")
+	)
+	(junction
 		(at 48.26 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0cb88b97-994b-4cda-960c-64b180af756c")
-	)
-	(junction
-		(at 88.9 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "304a3ba9-c692-45dd-80f9-a66555f83464")
 	)
 	(junction
 		(at 165.1 86.36)
@@ -2203,6 +2210,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b017d454-055a-488a-9b04-e361ccfa38e7")
+	)
+	(junction
+		(at 90.17 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f91fe016-e15d-452c-be18-0092c48a717f")
 	)
 	(junction
 		(at 170.18 129.54)
@@ -2272,6 +2285,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 64.77) (xy 81.28 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfe7f74-53c6-4fbc-88f2-de7d0412cb76")
+	)
+	(wire
+		(pts
 			(xy 199.39 83.82) (xy 199.39 81.28)
 		)
 		(stroke
@@ -2302,7 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 73.66) (xy 88.9 78.74)
+			(xy 90.17 73.66) (xy 90.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2339,6 +2362,16 @@
 			(type default)
 		)
 		(uuid "3e828dc5-5f90-4650-a167-b706ff430d1c")
+	)
+	(wire
+		(pts
+			(xy 90.17 73.66) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d18aa3-14e4-49eb-a2eb-a9278af40a17")
 	)
 	(wire
 		(pts
@@ -2462,16 +2495,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 73.66) (xy 95.25 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb3c070-8dd9-4e16-8aee-3886f0ad6bbb")
-	)
-	(wire
-		(pts
 			(xy 142.24 78.74) (xy 142.24 88.9)
 		)
 		(stroke
@@ -2532,13 +2555,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 78.74) (xy 88.9 78.74)
+			(xy 80.01 78.74) (xy 90.17 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b47c2fbd-3f86-43db-a13a-832a2735c1f1")
+	)
+	(wire
+		(pts
+			(xy 90.17 73.66) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c88346-bfaf-48d7-96da-5b59bb83ac4f")
 	)
 	(wire
 		(pts
@@ -2861,6 +2894,17 @@
 			(justify left bottom)
 		)
 		(uuid "a2004f2b-0c98-4266-91fd-3b8432ad07c9")
+	)
+	(label "NSY_OUT"
+		(at 81.28 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a513b675-3256-4a40-97f8-5ef06a217b02")
 	)
 	(label "BAT+"
 		(at 149.86 129.54 180)
@@ -3295,7 +3339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
+		(property "Sim.Pins" "1=G 2=S 3=D"
 			(at 173.99 132.08 0)
 			(effects
 				(font
