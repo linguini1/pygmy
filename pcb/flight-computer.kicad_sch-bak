@@ -4869,6 +4869,10 @@
 		(uuid "6049175f-e938-4cff-b88a-685a355be9d3")
 	)
 	(no_connect
+		(at 222.25 121.92)
+		(uuid "63fd6d78-29f4-46ae-99b5-937b2158f0dd")
+	)
+	(no_connect
 		(at 222.25 124.46)
 		(uuid "655997f4-7c38-4ed0-b337-618e89ef816a")
 	)
@@ -4912,7 +4916,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 227.33) (xy 297.18 227.33)
+			(xy 322.58 234.95) (xy 317.5 234.95)
 		)
 		(stroke
 			(width 0)
@@ -5462,7 +5466,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 227.33) (xy 297.18 228.6)
+			(xy 317.5 234.95) (xy 317.5 236.22)
 		)
 		(stroke
 			(width 0)
@@ -5882,7 +5886,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 217.17) (xy 302.26 217.17)
+			(xy 316.23 224.79) (xy 322.58 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5899,16 +5903,6 @@
 			(type default)
 		)
 		(uuid "de5f95a3-2a93-4784-910d-9305212d9f4b")
-	)
-	(wire
-		(pts
-			(xy 222.25 121.92) (xy 227.33 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de62b7b6-04e0-4ca1-8f3b-567bae9f0271")
 	)
 	(wire
 		(pts
@@ -6111,8 +6105,8 @@
 		(uuid "ffc764fc-2cb6-46d6-be6d-77224e32e4ef")
 	)
 	(rectangle
-		(start 286.9934 212.1842)
-		(end 325.12 243.5117)
+		(start 307.3134 219.8042)
+		(end 345.44 251.1317)
 		(stroke
 			(width 0)
 			(type default)
@@ -6147,8 +6141,8 @@
 		(uuid 17b3e50f-662f-4fc1-ac0e-de61e2ed19f3)
 	)
 	(rectangle
-		(start 196.618 212.2776)
-		(end 223.288 243.2656)
+		(start 216.938 219.8976)
+		(end 243.608 250.8856)
 		(stroke
 			(width 0)
 			(type default)
@@ -6159,8 +6153,8 @@
 		(uuid 215589fd-db9d-49d0-92ee-42aa08296036)
 	)
 	(rectangle
-		(start 34.29 180.34)
-		(end 72.39 190.5)
+		(start 22.86 182.88)
+		(end 60.96 193.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -6171,8 +6165,8 @@
 		(uuid 42fc7556-4949-450d-9908-fa60ea8a341e)
 	)
 	(rectangle
-		(start 228.092 212.344)
-		(end 250.698 243.586)
+		(start 248.412 219.964)
+		(end 271.018 251.206)
 		(stroke
 			(width 0)
 			(type default)
@@ -6183,8 +6177,8 @@
 		(uuid 5aca1cc1-31e7-4f66-80a8-6ddac9ce044d)
 	)
 	(rectangle
-		(start 256.54 212.344)
-		(end 283.21 243.332)
+		(start 276.86 219.964)
+		(end 303.53 250.952)
 		(stroke
 			(width 0)
 			(type default)
@@ -6268,7 +6262,7 @@
 	)
 	(text "Auditory arming indicator"
 		(exclude_from_sim no)
-		(at 304.038 210.82 0)
+		(at 324.358 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6288,7 +6282,7 @@
 	)
 	(text "Kernel Panic"
 		(exclude_from_sim no)
-		(at 239.522 210.566 0)
+		(at 259.842 218.186 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6298,7 +6292,7 @@
 	)
 	(text "Kernel startup"
 		(exclude_from_sim no)
-		(at 269.748 210.566 0)
+		(at 290.068 218.186 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6308,7 +6302,7 @@
 	)
 	(text "V_F: 2V2\nI_F: 20mA"
 		(exclude_from_sim no)
-		(at 276.86 240.538 0)
+		(at 297.18 248.158 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6318,7 +6312,7 @@
 	)
 	(text "V_F: 2V2\nI_F: 20mA"
 		(exclude_from_sim no)
-		(at 217.424 240.284 0)
+		(at 237.744 247.904 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6378,7 +6372,7 @@
 	)
 	(text "M3 mounting holes"
 		(exclude_from_sim no)
-		(at 43.18 179.07 0)
+		(at 31.75 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6428,7 +6422,7 @@
 	)
 	(text "V_F: 1V9\nI_F: 20mA"
 		(exclude_from_sim no)
-		(at 244.856 240.792 0)
+		(at 265.176 248.412 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6518,7 +6512,7 @@
 	)
 	(text "SD eject"
 		(exclude_from_sim no)
-		(at 209.826 210.4996 0)
+		(at 230.146 218.1196 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6582,7 +6576,7 @@
 		(uuid "11188a68-783e-4b2d-b200-b592f8bbacd6")
 	)
 	(label "SD_EJECT"
-		(at 205.508 217.1036 0)
+		(at 225.828 224.7236 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6670,7 +6664,7 @@
 		(uuid "396419ae-03cd-439b-aa0f-db3ca0b934cc")
 	)
 	(label "PANIC"
-		(at 234.95 217.17 0)
+		(at 255.27 224.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6835,7 +6829,7 @@
 		(uuid "7d95e8ca-e2eb-47ec-b5e2-f22ef087e8ed")
 	)
 	(label "BUZZ"
-		(at 295.91 217.17 0)
+		(at 316.23 224.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6901,7 +6895,7 @@
 		(uuid "ca7d9cde-9649-4ddd-8128-c5b9d968296e")
 	)
 	(label "STARTUP"
-		(at 265.43 217.17 0)
+		(at 285.75 224.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7109,28 +7103,6 @@
 			)
 		)
 	)
-	(global_label "ADC0"
-		(shape input)
-		(at 227.33 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "73646662-5715-4c01-8b08-64862a271f75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1533 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU_UART1_RX"
 		(shape input)
 		(at 234.95 106.68 0)
@@ -7221,7 +7193,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 297.18 236.22 0)
+		(at 317.5 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7230,7 +7202,7 @@
 		(fields_autoplaced yes)
 		(uuid "01352087-4598-4fb8-94ce-967a220f1a21")
 		(property "Reference" "#PWR038"
-			(at 297.18 242.57 0)
+			(at 317.5 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7211,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 297.18 241.3 0)
+			(at 317.5 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7247,7 +7219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 236.22 0)
+			(at 317.5 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +7228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 236.22 0)
+			(at 317.5 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,7 +7237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 297.18 236.22 0)
+			(at 317.5 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7646,7 +7618,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.508 232.3436 0)
+		(at 225.828 239.9636 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7655,7 +7627,7 @@
 		(fields_autoplaced yes)
 		(uuid "11ae446a-1544-46cb-bd7c-811eef67baf7")
 		(property "Reference" "#PWR036"
-			(at 205.508 238.6936 0)
+			(at 225.828 246.3136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7664,7 +7636,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.508 237.4236 0)
+			(at 225.828 245.0436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,7 +7644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.508 232.3436 0)
+			(at 225.828 239.9636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,7 +7653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.508 232.3436 0)
+			(at 225.828 239.9636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,7 +7662,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.508 232.3436 0)
+			(at 225.828 239.9636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8300,7 +8272,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 55.88 185.42 0)
+		(at 44.45 187.96 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8309,7 +8281,7 @@
 		(fields_autoplaced yes)
 		(uuid "28523c18-d4f4-4a7d-ba97-f60b1e7203d3")
 		(property "Reference" "H3"
-			(at 58.42 184.1499 0)
+			(at 46.99 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8318,7 +8290,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 58.42 186.6899 0)
+			(at 46.99 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8328,7 +8300,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 55.88 185.42 0)
+			(at 44.45 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,7 +8309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 185.42 0)
+			(at 44.45 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8346,7 +8318,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 55.88 185.42 0)
+			(at 44.45 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8482,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 39.37 185.42 0)
+		(at 27.94 187.96 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8519,7 +8491,7 @@
 		(fields_autoplaced yes)
 		(uuid "313e91ca-ebf5-403e-a0a5-1c2bad8130f6")
 		(property "Reference" "H1"
-			(at 41.91 184.1499 0)
+			(at 30.48 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +8500,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 41.91 186.6899 0)
+			(at 30.48 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8510,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 39.37 185.42 0)
+			(at 27.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +8519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 185.42 0)
+			(at 27.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +8528,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 39.37 185.42 0)
+			(at 27.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +8878,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 265.43 220.98 90)
+		(at 285.75 228.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8915,7 +8887,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a823199-c95e-4967-a6c4-ed9598c4cb15")
 		(property "Reference" "D2"
-			(at 269.24 221.2974 90)
+			(at 289.56 228.9174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +8896,7 @@
 			)
 		)
 		(property "Value" "GREEN LED"
-			(at 269.24 223.8374 90)
+			(at 289.56 231.4574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +8905,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 265.43 220.98 0)
+			(at 285.75 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +8914,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/588/prd_pim_datasheet_2191277_EN_pdf-3419125.pdf"
-			(at 265.43 220.98 0)
+			(at 285.75 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +8923,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 265.43 220.98 0)
+			(at 285.75 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +8932,7 @@
 			)
 		)
 		(property "MP" "LG R971-KN-1"
-			(at 265.43 220.98 0)
+			(at 285.75 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9195,7 +9167,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.508 228.5336 0)
+		(at 225.828 236.1536 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9204,7 +9176,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e0e7a3c-a19e-42aa-8a88-e15d396a0f75")
 		(property "Reference" "R14"
-			(at 208.28 227.2635 0)
+			(at 228.6 234.8835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9185,7 @@
 			)
 		)
 		(property "Value" "68R"
-			(at 208.28 229.8035 0)
+			(at 228.6 237.4235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9194,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 203.73 228.5336 90)
+			(at 224.05 236.1536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +9203,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
-			(at 205.508 228.5336 0)
+			(at 225.828 236.1536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9240,7 +9212,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 205.508 228.5336 0)
+			(at 225.828 236.1536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,7 +9221,7 @@
 			)
 		)
 		(property "MP" "ERA-2AED680X"
-			(at 205.508 228.5336 0)
+			(at 225.828 236.1536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,7 +10353,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 64.77 185.42 0)
+		(at 53.34 187.96 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10390,7 +10362,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e0776ee-4539-492a-b1ee-2269cec6bb04")
 		(property "Reference" "H4"
-			(at 67.31 184.1499 0)
+			(at 55.88 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10399,7 +10371,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 67.31 186.6899 0)
+			(at 55.88 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,7 +10381,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 64.77 185.42 0)
+			(at 53.34 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,7 +10390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 185.42 0)
+			(at 53.34 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,7 +10399,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 64.77 185.42 0)
+			(at 53.34 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10699,7 +10671,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 232.41 0)
+		(at 285.75 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10708,7 +10680,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a21916d-af8a-4cfa-8b4f-54e696845a28")
 		(property "Reference" "#PWR035"
-			(at 265.43 238.76 0)
+			(at 285.75 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10717,7 +10689,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 237.49 0)
+			(at 285.75 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10725,7 +10697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 232.41 0)
+			(at 285.75 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,7 +10706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 232.41 0)
+			(at 285.75 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10743,7 +10715,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 232.41 0)
+			(at 285.75 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,7 +11490,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "11k"
 			(at 101.6 38.0999 0)
 			(effects
 				(font
@@ -11536,7 +11508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=SFR01MZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 99.06 36.83 0)
 			(effects
 				(font
@@ -11554,7 +11526,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SFR01MZPJ103"
+		(property "MP" "ERA-2AEB113X"
 			(at 99.06 36.83 0)
 			(effects
 				(font
@@ -11580,7 +11552,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 265.43 228.6 0)
+		(at 285.75 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11589,7 +11561,7 @@
 		(fields_autoplaced yes)
 		(uuid "a675c1f6-ecbd-4fad-b637-6eae7bb1eceb")
 		(property "Reference" "R13"
-			(at 267.97 227.3299 0)
+			(at 288.29 234.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11598,7 +11570,7 @@
 			)
 		)
 		(property "Value" "68R"
-			(at 267.97 229.8699 0)
+			(at 288.29 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11607,7 +11579,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 263.652 228.6 90)
+			(at 283.972 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11616,7 +11588,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
-			(at 265.43 228.6 0)
+			(at 285.75 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11625,7 +11597,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 265.43 228.6 0)
+			(at 285.75 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11634,7 +11606,7 @@
 			)
 		)
 		(property "MP" "ERA-2AED680X"
-			(at 265.43 228.6 0)
+			(at 285.75 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11738,7 +11710,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 205.508 220.9136 90)
+		(at 225.828 228.5336 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11747,7 +11719,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaf5f2ca-70fa-4c58-9355-eb09ebf57015")
 		(property "Reference" "D3"
-			(at 209.318 221.231 90)
+			(at 229.638 228.851 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +11728,7 @@
 			)
 		)
 		(property "Value" "GREEN LED"
-			(at 209.318 223.771 90)
+			(at 229.638 231.391 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +11737,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 205.508 220.9136 0)
+			(at 225.828 228.5336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11774,7 +11746,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/588/prd_pim_datasheet_2191277_EN_pdf-3419125.pdf"
-			(at 205.508 220.9136 0)
+			(at 225.828 228.5336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11783,7 +11755,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 205.508 220.9136 0)
+			(at 225.828 228.5336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11792,7 +11764,7 @@
 			)
 		)
 		(property "MP" "LG R971-KN-1"
-			(at 205.508 220.9136 0)
+			(at 225.828 228.5336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12217,7 +12189,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 232.41 0)
+		(at 255.27 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12226,7 +12198,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1aa09ed-2c8b-4f81-8720-2149e50f608d")
 		(property "Reference" "#PWR034"
-			(at 234.95 238.76 0)
+			(at 255.27 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12235,7 +12207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 237.49 0)
+			(at 255.27 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12243,7 +12215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 232.41 0)
+			(at 255.27 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12252,7 +12224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 232.41 0)
+			(at 255.27 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,7 +12233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 232.41 0)
+			(at 255.27 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12349,7 +12321,7 @@
 	)
 	(symbol
 		(lib_id "AI-1223-TWT-3V-2-R:AI-1223-TWT-3V-2-R")
-		(at 304.8 222.25 0)
+		(at 325.12 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12358,7 +12330,7 @@
 		(fields_autoplaced yes)
 		(uuid "b35795fc-d5cf-4d7a-b008-87f8cf353c2f")
 		(property "Reference" "LS1"
-			(at 308.61 221.1242 0)
+			(at 328.93 228.7442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12367,7 +12339,7 @@
 			)
 		)
 		(property "Value" "ACTIVE BUZZER"
-			(at 308.61 223.6642 0)
+			(at 328.93 231.2842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12376,7 +12348,7 @@
 			)
 		)
 		(property "Footprint" "buzzer:XDCR_AI-1223-TWT-3V-2-R"
-			(at 304.8 222.25 0)
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12386,7 +12358,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/334/AI-1223-TWT-3V-2-R-532205.pdf"
-			(at 304.8 222.25 0)
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,7 +12367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 304.8 222.25 0)
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12404,7 +12376,7 @@
 			)
 		)
 		(property "PARTREV" "3/18/2020"
-			(at 304.8 222.25 0)
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +12386,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 304.8 222.25 0)
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12424,7 +12396,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "7.8 mm"
-			(at 304.8 222.25 0)
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12434,7 +12406,7 @@
 			)
 		)
 		(property "MANUFACTURER" "PUI Audio"
-			(at 304.8 222.25 0)
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12444,7 +12416,7 @@
 			)
 		)
 		(property "MP" "AI-1223-TWT-3V-2-R"
-			(at 304.8 222.25 0)
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12469,7 +12441,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 234.95 228.6 0)
+		(at 255.27 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12478,7 +12450,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb9ef126-9b06-4ad5-8e56-22e7131308bd")
 		(property "Reference" "R12"
-			(at 237.49 227.3299 0)
+			(at 257.81 234.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12487,7 +12459,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 237.49 229.8699 0)
+			(at 257.81 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12496,7 +12468,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 233.172 228.6 90)
+			(at 253.492 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12505,7 +12477,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C334-1314047.pdf"
-			(at 234.95 228.6 0)
+			(at 255.27 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12514,7 +12486,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 234.95 228.6 0)
+			(at 255.27 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12523,7 +12495,7 @@
 			)
 		)
 		(property "MP" "ERJ-U02J101X"
-			(at 234.95 228.6 0)
+			(at 255.27 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12548,7 +12520,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 48.26 185.42 0)
+		(at 36.83 187.96 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -12557,7 +12529,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0b161db-2021-4e5a-96b3-5fed878b3b15")
 		(property "Reference" "H2"
-			(at 50.8 184.1499 0)
+			(at 39.37 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12566,7 +12538,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 50.8 186.6899 0)
+			(at 39.37 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12576,7 +12548,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 48.26 185.42 0)
+			(at 36.83 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12585,7 +12557,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 185.42 0)
+			(at 36.83 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12594,7 +12566,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 48.26 185.42 0)
+			(at 36.83 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12613,7 +12585,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 297.18 232.41 0)
+		(at 317.5 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12622,7 +12594,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1003dea-e19d-4709-9b47-f82cfcb2608c")
 		(property "Reference" "R15"
-			(at 299.72 231.1399 0)
+			(at 320.04 238.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12631,7 +12603,7 @@
 			)
 		)
 		(property "Value" "150R"
-			(at 299.72 233.6799 0)
+			(at 320.04 241.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12640,7 +12612,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 295.402 232.41 90)
+			(at 315.722 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12649,7 +12621,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
-			(at 297.18 232.41 0)
+			(at 317.5 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12658,7 +12630,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 297.18 232.41 0)
+			(at 317.5 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12667,7 +12639,7 @@
 			)
 		)
 		(property "MP" "ERA-2AED151X"
-			(at 297.18 232.41 0)
+			(at 317.5 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13319,7 +13291,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 234.95 220.98 90)
+		(at 255.27 228.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13328,7 +13300,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee0b6417-717b-4f07-b8f1-8c6337768507")
 		(property "Reference" "D1"
-			(at 238.76 221.2974 90)
+			(at 259.08 228.9174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13337,7 +13309,7 @@
 			)
 		)
 		(property "Value" "RED LED"
-			(at 238.76 223.8374 90)
+			(at 259.08 231.4574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13346,7 +13318,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 234.95 220.98 0)
+			(at 255.27 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13355,7 +13327,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/678/av02-0112en-ds-hsmx-c1xx-29sep2010-1827222.pdf"
-			(at 234.95 220.98 0)
+			(at 255.27 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13364,7 +13336,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 234.95 220.98 0)
+			(at 255.27 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,7 +13345,7 @@
 			)
 		)
 		(property "MP" "HSMC-C170-T0000"
-			(at 234.95 220.98 0)
+			(at 255.27 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
