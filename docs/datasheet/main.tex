@@ -1,0 +1,45 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, margin=1in]{geometry}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{montserrat}
+
+% Ensure consistency between displayed PDF title and PDF viewer title %
+\def\doctitle{Pygmy Flight Computer Datasheet}
+
+% Remove paragraph indentation and use newline to separate instead. %
+\usepackage[parfill]{parskip}
+\setlength{\parindent}{0cm}
+
+% Links %
+\usepackage[
+    pdftitle={\doctitle},
+    colorlinks=false,
+    allbordercolors={0 0 0},
+    citebordercolor={1 1 1}, % No border for citations %
+    pdfborderstyle={/S/U/W 1},
+]{hyperref}
+
+
+\title{\doctitle}
+\author{Matteo Golin \\ matteo.golin@gmail.com}
+\date{
+    Created: November 26, 2024 \\
+    Updated: \today
+}
+
+\begin{document}
+
+\maketitle
+\pagebreak
+
+\tableofcontents
+\pagebreak
+
+\input{./sections/about.tex}
+\input{./sections/electrical.tex}
+\input{./sections/application.tex}
+
+\end{document}
