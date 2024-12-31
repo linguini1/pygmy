@@ -2645,7 +2645,7 @@
 		(uuid "ec439be1-3e3b-429a-a7d4-c5fd5fedae83")
 	)
 	(junction
-		(at 128.27 109.22)
+		(at 130.81 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eebbf615-3b8e-4798-98f6-973988c54214")
@@ -2786,7 +2786,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 109.22) (xy 133.35 109.22)
+			(xy 130.81 109.22) (xy 135.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2846,7 +2846,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 111.76) (xy 128.27 109.22)
+			(xy 130.81 111.76) (xy 130.81 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3356,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 109.22) (xy 118.11 109.22)
+			(xy 92.71 109.22) (xy 120.65 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3366,7 +3366,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 109.22) (xy 125.73 109.22)
+			(xy 130.81 109.22) (xy 128.27 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3746,7 +3746,7 @@
 	)
 	(global_label "MCU_UART0_TX"
 		(shape input)
-		(at 133.35 109.22 0)
+		(at 135.89 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3756,7 +3756,7 @@
 		)
 		(uuid "31b9c136-8af9-40fc-996d-1ce9b90342ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.3656 109.22 0)
+			(at 152.9056 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4401,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 109.22 90)
+		(at 124.46 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4409,7 +4409,7 @@
 		(dnp no)
 		(uuid "2b02d00e-73f3-40d9-883d-644feca9d7ea")
 		(property "Reference" "R18"
-			(at 121.92 103.886 90)
+			(at 124.46 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +4417,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 121.92 106.426 90)
+			(at 124.46 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4425,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 121.92 110.998 90)
+			(at 124.46 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,8 +4433,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 121.92 109.22 0)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
+			(at 124.46 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4443,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 109.22 0)
+			(at 124.46 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +4452,7 @@
 			)
 		)
 		(property "MP" "ERA-2AEB102X"
-			(at 121.92 109.22 0)
+			(at 124.46 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +4575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 97.79 111.76 0)
 			(effects
 				(font
@@ -4847,7 +4847,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 115.57 0)
+		(at 130.81 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4855,7 +4855,7 @@
 		(dnp no)
 		(uuid "6980f875-c13b-4cc9-b5f4-a0176e899a14")
 		(property "Reference" "R20"
-			(at 132.08 114.046 0)
+			(at 134.62 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +4863,7 @@
 			)
 		)
 		(property "Value" "5k6"
-			(at 132.08 116.586 0)
+			(at 134.62 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +4871,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 126.492 115.57 90)
+			(at 129.032 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +4880,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/54/cr-1858361.pdf"
-			(at 128.27 115.57 0)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,7 +4889,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 115.57 0)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +4898,7 @@
 			)
 		)
 		(property "MP" "CR0402-FX-5601GLF"
-			(at 128.27 115.57 0)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6046,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 119.38 0)
+		(at 130.81 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6055,7 +6055,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8dbfa54-e6aa-49d8-96c2-3c10909d7e71")
 		(property "Reference" "#PWR075"
-			(at 128.27 125.73 0)
+			(at 130.81 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6064,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 124.46 0)
+			(at 130.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 119.38 0)
+			(at 130.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 119.38 0)
+			(at 130.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6090,7 +6090,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 119.38 0)
+			(at 130.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

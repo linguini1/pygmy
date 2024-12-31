@@ -6340,7 +6340,7 @@
 	)
 	(rectangle
 		(start 34.798 64.77)
-		(end 83.566 98.298)
+		(end 87.63 99.06)
 		(stroke
 			(width 0)
 			(type default)
@@ -6417,6 +6417,16 @@
 			)
 		)
 		(uuid "19cc4262-1ec4-4306-822a-8f3cc15e2b46")
+	)
+	(text "C = 2*(C_L - C_S)\nC = 2*(10 - 2.5)"
+		(exclude_from_sim no)
+		(at 76.2 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24a2c460-1e5e-46e1-be46-4926b52220c0")
 	)
 	(text "Kernel Panic"
 		(exclude_from_sim no)
@@ -6590,7 +6600,7 @@
 	)
 	(text "Reference Clock"
 		(exclude_from_sim no)
-		(at 58.42 62.484 0)
+		(at 63.754 62.484 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9475,7 +9485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "330R"
 			(at 208.28 229.8035 0)
 			(effects
 				(font
@@ -9493,7 +9503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110231.pdf"
 			(at 205.508 228.5336 0)
 			(effects
 				(font
@@ -9511,7 +9521,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-2AED680X"
+		(property "MP" "560112110231"
 			(at 205.508 228.5336 0)
 			(effects
 				(font
@@ -11860,7 +11870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "330R"
 			(at 267.97 229.8699 0)
 			(effects
 				(font
@@ -11878,7 +11888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C307-1149632.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110231.pdf"
 			(at 265.43 228.6 0)
 			(effects
 				(font
@@ -11896,7 +11906,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-2AED680X"
+		(property "MP" "560112110231"
 			(at 265.43 228.6 0)
 			(effects
 				(font
@@ -12814,7 +12824,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "330R"
 			(at 237.49 229.8699 0)
 			(effects
 				(font
@@ -12832,7 +12842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/2/315/AOA0000C334-1314047.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110231.pdf"
 			(at 234.95 228.6 0)
 			(effects
 				(font
@@ -12850,7 +12860,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERJ-U02J101X"
+		(property "MP" "560112110231"
 			(at 234.95 228.6 0)
 			(effects
 				(font
