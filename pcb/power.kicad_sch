@@ -3790,7 +3790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
 			(at 36.83 120.65 0)
 			(effects
 				(font
@@ -3800,7 +3800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1711026/pdf"
+		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1725656/pdf"
 			(at 36.83 120.65 0)
 			(effects
 				(font
@@ -3858,7 +3858,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "1711026"
+		(property "MP" "1725656"
 			(at 36.83 120.65 0)
 			(effects
 				(font
