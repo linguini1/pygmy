@@ -24,7 +24,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|558800|876300|6e4b6d8b-36eb-4665-bca3-0b59b08b9624|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },

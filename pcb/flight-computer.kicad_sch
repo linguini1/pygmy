@@ -5210,6 +5210,12 @@
 		(uuid "a9454f56-2188-4596-9a6f-6232d3db1a02")
 	)
 	(junction
+		(at 127 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0afd884-3f13-40f4-93f4-7e159dd30576")
+	)
+	(junction
 		(at 228.6 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5304,6 +5310,16 @@
 			(type default)
 		)
 		(uuid "06e64d62-b9fc-47b3-945d-6a32da3ddd06")
+	)
+	(wire
+		(pts
+			(xy 264.16 228.6) (xy 264.16 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6e7877-0233-45aa-b6b3-6d2c6534bf3f")
 	)
 	(wire
 		(pts
@@ -5477,6 +5493,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 228.6) (xy 233.68 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32060be0-35eb-4a61-804e-4cafff6acba1")
+	)
+	(wire
+		(pts
 			(xy 166.37 50.8) (xy 166.37 53.34)
 		)
 		(stroke
@@ -5614,6 +5640,16 @@
 			(type default)
 		)
 		(uuid "58969b7b-7a81-4700-8cf0-328efdbfb643")
+	)
+	(wire
+		(pts
+			(xy 204.47 228.6) (xy 204.47 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e1fa0f-8549-4d3d-8619-4d3d6b3df22c")
 	)
 	(wire
 		(pts
@@ -5917,6 +5953,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 220.98) (xy 208.28 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c385dea-df27-4f44-b008-208b7c19647f")
+	)
+	(wire
+		(pts
 			(xy 223.52 53.34) (xy 222.25 53.34)
 		)
 		(stroke
@@ -5984,6 +6030,16 @@
 			(type default)
 		)
 		(uuid "926af6a7-1943-4aba-9cf5-b84e4e228eee")
+	)
+	(wire
+		(pts
+			(xy 267.97 220.98) (xy 264.16 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986bcf45-522a-4e3f-b4f7-e6e7c1cc6b77")
 	)
 	(wire
 		(pts
@@ -6094,6 +6150,16 @@
 			(type default)
 		)
 		(uuid "aadf11c5-85ee-4697-a2c4-e3322936c479")
+	)
+	(wire
+		(pts
+			(xy 233.68 238.76) (xy 233.68 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcc8d46-c7f8-4bed-9b76-7b51b8e02a5e")
 	)
 	(wire
 		(pts
@@ -6214,6 +6280,16 @@
 			(type default)
 		)
 		(uuid "c4adbc04-7243-4c0b-a070-640695956851")
+	)
+	(wire
+		(pts
+			(xy 204.47 237.49) (xy 204.47 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5dbbcfd-087e-45ee-bd5c-e2ae9a917d2d")
 	)
 	(wire
 		(pts
@@ -6457,6 +6533,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 220.98) (xy 236.22 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04d921a-b7d6-4e59-814c-0371663de344")
+	)
+	(wire
+		(pts
 			(xy 222.25 88.9) (xy 228.6 88.9)
 		)
 		(stroke
@@ -6474,6 +6560,16 @@
 			(type default)
 		)
 		(uuid "f06c219f-c0d6-4a5c-bb0a-b1592403ef86")
+	)
+	(wire
+		(pts
+			(xy 264.16 238.76) (xy 264.16 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d7ee26-0ca8-4905-8783-b5e44bf0d15f")
 	)
 	(wire
 		(pts
@@ -7027,7 +7123,7 @@
 		(uuid "11188a68-783e-4b2d-b200-b592f8bbacd6")
 	)
 	(label "SD_EJECT"
-		(at 204.238 222.1836 0)
+		(at 208.28 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7115,7 +7211,7 @@
 		(uuid "396419ae-03cd-439b-aa0f-db3ca0b934cc")
 	)
 	(label "PANIC"
-		(at 233.68 222.25 0)
+		(at 236.22 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7335,7 +7431,7 @@
 		(uuid "ca7d9cde-9649-4ddd-8128-c5b9d968296e")
 	)
 	(label "STARTUP"
-		(at 264.16 222.25 0)
+		(at 267.97 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8222,7 +8318,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.238 237.4236 0)
+		(at 204.47 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8231,7 +8327,7 @@
 		(fields_autoplaced yes)
 		(uuid "11ae446a-1544-46cb-bd7c-811eef67baf7")
 		(property "Reference" "#PWR036"
-			(at 204.238 243.7736 0)
+			(at 204.47 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8240,7 +8336,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.238 242.5036 0)
+			(at 204.47 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,7 +8344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.238 237.4236 0)
+			(at 204.47 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +8353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.238 237.4236 0)
+			(at 204.47 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8362,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.238 237.4236 0)
+			(at 204.47 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9482,7 +9578,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 264.16 226.06 90)
+		(at 264.16 224.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9491,7 +9587,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a823199-c95e-4967-a6c4-ed9598c4cb15")
 		(property "Reference" "D2"
-			(at 267.97 226.3774 90)
+			(at 267.97 225.1074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9500,7 +9596,7 @@
 			)
 		)
 		(property "Value" "GREEN LED"
-			(at 267.97 228.9174 90)
+			(at 267.97 227.6474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9509,7 +9605,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 264.16 226.06 0)
+			(at 264.16 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9518,7 +9614,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/588/prd_pim_datasheet_2191277_EN_pdf-3419125.pdf"
-			(at 264.16 226.06 0)
+			(at 264.16 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,7 +9623,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 264.16 226.06 0)
+			(at 264.16 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,7 +9632,7 @@
 			)
 		)
 		(property "MP" "LG R971-KN-1"
-			(at 264.16 226.06 0)
+			(at 264.16 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,7 +9976,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.238 233.6136 0)
+		(at 204.47 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9889,7 +9985,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e0e7a3c-a19e-42aa-8a88-e15d396a0f75")
 		(property "Reference" "R14"
-			(at 207.01 232.3435 0)
+			(at 207.242 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9898,7 +9994,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 207.01 234.8835 0)
+			(at 207.242 234.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9907,7 +10003,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 202.46 233.6136 90)
+			(at 202.692 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,7 +10012,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110231.pdf"
-			(at 204.238 233.6136 0)
+			(at 204.47 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9925,7 +10021,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 204.238 233.6136 0)
+			(at 204.47 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9934,7 +10030,7 @@
 			)
 		)
 		(property "MP" "560112110231"
-			(at 204.238 233.6136 0)
+			(at 204.47 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11450,7 +11546,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 237.49 0)
+		(at 264.16 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11459,7 +11555,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a21916d-af8a-4cfa-8b4f-54e696845a28")
 		(property "Reference" "#PWR035"
-			(at 264.16 243.84 0)
+			(at 264.16 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11468,7 +11564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 242.57 0)
+			(at 264.16 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11476,7 +11572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 237.49 0)
+			(at 264.16 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11485,7 +11581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 237.49 0)
+			(at 264.16 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11494,7 +11590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 237.49 0)
+			(at 264.16 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12489,7 +12585,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 204.238 225.9936 90)
+		(at 204.47 224.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12498,7 +12594,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaf5f2ca-70fa-4c58-9355-eb09ebf57015")
 		(property "Reference" "D3"
-			(at 208.048 226.311 90)
+			(at 208.28 225.1074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12507,7 +12603,7 @@
 			)
 		)
 		(property "Value" "GREEN LED"
-			(at 208.048 228.851 90)
+			(at 208.28 227.6474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12516,7 +12612,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 204.238 225.9936 0)
+			(at 204.47 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12525,7 +12621,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/588/prd_pim_datasheet_2191277_EN_pdf-3419125.pdf"
-			(at 204.238 225.9936 0)
+			(at 204.47 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12534,7 +12630,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 204.238 225.9936 0)
+			(at 204.47 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12543,7 +12639,7 @@
 			)
 		)
 		(property "MP" "LG R971-KN-1"
-			(at 204.238 225.9936 0)
+			(at 204.47 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12968,7 +13064,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 237.49 0)
+		(at 233.68 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12977,7 +13073,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1aa09ed-2c8b-4f81-8720-2149e50f608d")
 		(property "Reference" "#PWR034"
-			(at 233.68 243.84 0)
+			(at 233.68 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12986,7 +13082,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 242.57 0)
+			(at 233.68 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12994,7 +13090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 237.49 0)
+			(at 233.68 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13003,7 +13099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 237.49 0)
+			(at 233.68 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13012,7 +13108,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 237.49 0)
+			(at 233.68 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14135,7 +14231,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 233.68 226.06 90)
+		(at 233.68 224.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14144,7 +14240,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee0b6417-717b-4f07-b8f1-8c6337768507")
 		(property "Reference" "D1"
-			(at 237.49 226.3774 90)
+			(at 237.49 225.1074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14153,7 +14249,7 @@
 			)
 		)
 		(property "Value" "RED LED"
-			(at 237.49 228.9174 90)
+			(at 237.49 227.6474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14162,7 +14258,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 233.68 226.06 0)
+			(at 233.68 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14171,7 +14267,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/678/av02-0112en-ds-hsmx-c1xx-29sep2010-1827222.pdf"
-			(at 233.68 226.06 0)
+			(at 233.68 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14180,7 +14276,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 233.68 226.06 0)
+			(at 233.68 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14189,7 +14285,7 @@
 			)
 		)
 		(property "MP" "HSMC-C170-T0000"
-			(at 233.68 226.06 0)
+			(at 233.68 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14405,6 +14501,72 @@
 			(project "flight-computer"
 				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 127 264.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f66e2ef7-7a96-4cd2-b494-3ab3aefb65bf")
+		(property "Reference" "#FLG05"
+			(at 127 266.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 127 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 127 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d76c5c6f-c9d2-4529-861b-e4f0fe821b67")
+		)
+		(instances
+			(project ""
+				(path "/b90d3133-97a4-4747-8a68-e80f353c7b97"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
