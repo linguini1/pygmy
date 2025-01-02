@@ -113,7 +113,7 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -139,12 +139,12 @@
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(net 0 "")
@@ -202,7 +202,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3e039142-36d7-405a-a84d-a27c0f4e32c6")
@@ -214,7 +214,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "b0c7892b-28a7-436d-90ca-1c1bae53e74f")
 			(effects
@@ -382,7 +382,7 @@
 			(uuid "b17dfeda-c7b8-4e89-b4d7-52a1b159593d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8abc0843-59b3-4158-be04-ecd36d8a2154")
 			(effects
@@ -1245,7 +1245,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bff2cb29-6266-4951-8187-9a5a3c3f9b36")
@@ -1257,7 +1257,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "60bc590c-7039-47da-947f-4817bc5bc040")
 			(effects
@@ -1425,7 +1425,7 @@
 			(uuid "8eb179a1-29bd-4478-862c-16213f8bd314")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3f0fa9ba-7da9-4e7a-a8b8-c5e24a726831")
 			(effects
@@ -1472,7 +1472,7 @@
 		(descr "TSOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U3"
-			(at 0 -3 360)
+			(at 0 -3 0)
 			(layer "F.SilkS")
 			(uuid "f36b7c55-dad3-423f-ad6f-12c92d7052f7")
 			(effects
@@ -1483,7 +1483,7 @@
 			)
 		)
 		(property "Value" "LM3671MF"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "4c504785-82d2-410c-a04b-3e755f934684")
 			(effects
@@ -1494,7 +1494,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "14f78bc2-e792-4df1-8632-60fee663d462")
@@ -1506,7 +1506,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm3670.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dd70fbb6-0922-44b4-855f-5ba6ae5286ae")
@@ -1518,7 +1518,7 @@
 			)
 		)
 		(property "Description" "Miniature Step-Down DC-DC Converter for Ultralow Voltage Circuits, 2.5V < Vin < 5.5V, adjustable output voltage, SOT-23-5"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1632aeb1-e910-4b6d-8479-a03b6858b6bb")
@@ -1690,7 +1690,7 @@
 			(uuid "0b3d2e22-4c4e-45e1-b89c-2f8ffd5a5054")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "12dafb85-b933-4c4a-98da-fc0518754a7f")
 			(effects
@@ -2463,7 +2463,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "684adba1-953d-4809-9a98-ced810e03eaf")
 			(effects
@@ -2631,7 +2631,7 @@
 			(uuid "64967f4a-a122-4961-a4c7-c1e5a068fbba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f85b7859-0b56-4796-ba4e-03eac3a14e5d")
 			(effects
@@ -5157,7 +5157,7 @@
 			(uuid "7452009f-2107-4839-a093-9de5896341db")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "f09593e0-3034-4d2a-a2c9-e097a22bd1f6")
 			(effects
@@ -5458,7 +5458,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "4f7aba02-97e1-4444-a0ba-842fe27bd444")
 			(effects
@@ -5626,7 +5626,7 @@
 			(uuid "238d8f9c-b553-4db3-a68f-72baf9fe79d0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "55dc58fb-42da-4c05-b2cf-cbc151dfd4e9")
 			(effects
@@ -5799,7 +5799,7 @@
 			)
 		)
 		(property "Value" "SMA_Coax"
-			(at -1.72 -7.11 360)
+			(at -1.72 -7.11 0)
 			(layer "F.Fab")
 			(uuid "ced547be-ffed-48fe-853b-24491e4847b1")
 			(effects
@@ -6147,7 +6147,7 @@
 			(uuid "7352d42e-f596-402f-b56a-7fda09320c1d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.5 7 360)
+			(at -1.5 7 0)
 			(layer "F.Fab")
 			(uuid "41e19b29-e96f-4ce7-bc16-1a2d6dc221f9")
 			(effects
@@ -6535,7 +6535,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "99b41911-23f3-408d-b41d-d4c9ff5437e3")
@@ -6547,7 +6547,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6b6ca5cb-23d8-4acf-bf0b-62168bf25e96")
 			(effects
@@ -6715,7 +6715,7 @@
 			(uuid "ad24ee9e-c9f3-4da4-994c-5d40579ce8e5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2a8b4a64-a54f-45ad-8a96-5fc576e617ad")
 			(effects
@@ -8529,7 +8529,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "461278b4-8b6f-486c-aa19-6e6c40781e3e")
 			(effects
@@ -8697,7 +8697,7 @@
 			(uuid "d7ada6bf-6ede-4c01-83fe-d716a3c904c2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2be30ac3-ef1e-4252-9ca1-bb4a83f48dd1")
 			(effects
