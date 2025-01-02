@@ -4425,6 +4425,12 @@
 		(uuid "58e3bb9c-dec8-499d-98c0-b467a192a0f0")
 	)
 	(junction
+		(at 231.14 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cc2903f-1cd2-4667-84a6-49ffb74c1593")
+	)
+	(junction
 		(at 218.44 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5130,6 +5136,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 125.73) (xy 231.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab710eda-a8df-4a46-866a-908371d327e8")
+	)
+	(wire
+		(pts
 			(xy 218.44 45.72) (xy 218.44 57.15)
 		)
 		(stroke
@@ -5673,6 +5689,17 @@
 			)
 		)
 		(uuid "d17cbe72-0edd-4c25-90b8-8830add58bfb")
+	)
+	(label "PWR_NSY"
+		(at 231.14 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "042dfd0f-8e45-41ae-9b66-0b8bbe44fa26")
 	)
 	(label "D-"
 		(at 54.61 161.29 0)
