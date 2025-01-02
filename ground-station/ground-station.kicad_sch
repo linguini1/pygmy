@@ -4780,6 +4780,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 172.72) (xy 135.89 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3293486f-f501-4f4b-8bb9-58d6c139aae3")
+	)
+	(wire
+		(pts
 			(xy 77.47 156.21) (xy 77.47 154.94)
 		)
 		(stroke
@@ -4897,6 +4907,16 @@
 			(type default)
 		)
 		(uuid "5acc243f-b113-4d32-a67f-7c15ffba57a4")
+	)
+	(wire
+		(pts
+			(xy 147.32 175.26) (xy 147.32 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cea98d6-4e96-4891-bc0a-aea1476f594d")
 	)
 	(wire
 		(pts
@@ -5187,16 +5207,6 @@
 			(type default)
 		)
 		(uuid "bd6ce077-f601-4e45-9f44-e5d0016c8ef9")
-	)
-	(wire
-		(pts
-			(xy 147.32 182.88) (xy 147.32 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfb1b51c-1dce-4789-bc48-e2af62b2a1a6")
 	)
 	(wire
 		(pts
@@ -5785,6 +5795,28 @@
 			)
 		)
 	)
+	(global_label "MCU_RX"
+		(shape input)
+		(at 147.32 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "212120eb-79b9-40b6-bb41-e6dc35e1cd03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.8358 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_TX"
 		(shape input)
 		(at 240.03 64.77 0)
@@ -5809,7 +5841,7 @@
 	)
 	(global_label "MCU_TX"
 		(shape input)
-		(at 147.32 175.26 180)
+		(at 147.32 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5817,9 +5849,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c9494e3c-6bee-4829-a9f7-966e9bc0c0e4")
+		(uuid "d0ddad96-39ea-41c9-9765-5d162d6a8ff1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.1382 175.26 0)
+			(at 137.1382 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,28 +5874,6 @@
 		(uuid "d90c2f9e-44fc-4853-9f6a-3e71c24e7631")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 20.2982 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_RX"
-		(shape input)
-		(at 147.32 177.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f2f29b6f-0e88-4998-be6d-aba2bfe8da2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.8358 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,7 +6736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VBUS"
 			(at 69.85 158.75 0)
 			(effects
 				(font
@@ -6998,7 +7008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 173.6852 83.82 0)
 			(effects
 				(font
@@ -7017,6 +7027,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C0402C470K3RACAUTO"
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -7147,7 +7166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 152.4 177.8 0)
 			(effects
 				(font
@@ -7156,7 +7175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/18/68000-1266375.pdf"
 			(at 152.4 177.8 0)
 			(effects
 				(font
@@ -7166,6 +7185,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 152.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "78511-203HLF"
 			(at 152.4 177.8 0)
 			(effects
 				(font
@@ -7405,7 +7433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 182.88 0)
+		(at 135.89 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7414,7 +7442,7 @@
 		(fields_autoplaced yes)
 		(uuid "564725e9-9c39-414b-8ee7-7adf534997f7")
 		(property "Reference" "#PWR015"
-			(at 147.32 189.23 0)
+			(at 135.89 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7423,7 +7451,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 184.1499 0)
+			(at 138.43 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,7 +7460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 182.88 0)
+			(at 135.89 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,7 +7469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 182.88 0)
+			(at 135.89 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7450,7 +7478,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 182.88 0)
+			(at 135.89 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,6 +8166,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "FT230XS-R"
+			(at 220.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "e239dace-9112-4679-bff9-43c7f42bbb6b")
 		)
@@ -8309,7 +8346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_C1023_X7R_AUTO_SMD-3316698.pdf"
 			(at 209.55 137.16 0)
 			(effects
 				(font
@@ -8534,7 +8571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 143.2052 149.86 0)
 			(effects
 				(font
@@ -8543,7 +8580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/40/AutoMLCCKAM-3216307.pdf"
 			(at 142.24 146.05 0)
 			(effects
 				(font
@@ -8553,6 +8590,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 142.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "KAM05AR71E103KH"
 			(at 142.24 146.05 0)
 			(effects
 				(font
@@ -8876,7 +8922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_C1023_X7R_AUTO_SMD-3316698.pdf"
 			(at 105.41 59.69 0)
 			(effects
 				(font
@@ -9022,7 +9068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_C1023_X7R_AUTO_SMD-3316698.pdf"
 			(at 245.11 49.53 0)
 			(effects
 				(font
@@ -10153,7 +10199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.0352 86.36 0)
 			(effects
 				(font
@@ -10172,6 +10218,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C0402C470K3RACAUTO "
 			(at 179.07 82.55 0)
 			(effects
 				(font
@@ -10376,7 +10431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 153.67 141.478 90)
 			(effects
 				(font
@@ -10385,7 +10440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/987/mi0805k601r_10_datasheet-2947150.pdf"
 			(at 153.67 139.7 0)
 			(effects
 				(font
@@ -10395,6 +10450,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "MI0805K601R-10"
 			(at 153.67 139.7 0)
 			(effects
 				(font
