@@ -10253,7 +10253,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "C0402C470K3RACAUTO "
+		(property "MP" "C0402C470K3RACAUTO"
 			(at 179.07 82.55 0)
 			(effects
 				(font
