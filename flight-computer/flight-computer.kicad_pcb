@@ -3580,7 +3580,7 @@
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "3V3"
-			(at 0 -1.648 0)
+			(at 2.8968 -0.1194 0)
 			(layer "F.SilkS")
 			(uuid "4767d9cc-fe5d-4a56-ad76-da7aa2bba493")
 			(effects
@@ -10643,9 +10643,10 @@
 		(at 117.601 76.4668 180)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
-		(property "Reference" "SW2"
+		(property "Reference" "RST"
 			(at -3.3666 -0.1778 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "47d22e6b-33e8-49d2-85d8-03cf18307e81")
 			(effects
 				(font
@@ -24930,7 +24931,7 @@
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "GND"
-			(at 0 -1.648 0)
+			(at 2.9222 0.0158 0)
 			(layer "F.SilkS")
 			(uuid "b63e6aaf-ab6c-4af5-9bfe-2e470eb30a7b")
 			(effects
@@ -26202,6 +26203,7 @@
 		(property "Reference" "SW1"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3f0c5d1d-dd0f-499f-a914-704353aa243b")
 			(effects
 				(font
@@ -28964,6 +28966,32 @@
 					(xy 126.76203 129.356636)
 				)
 			)
+		)
+	)
+	(gr_text "RST"
+		(at 119.25 77 0)
+		(layer "F.SilkS")
+		(uuid "61636222-656c-4115-8e49-ac7548853049")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BOOT"
+		(at 87.75 115 0)
+		(layer "F.SilkS")
+		(uuid "88b03d66-ba3a-400a-9b26-b5c87c52559c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "SHORT TO ARM"
