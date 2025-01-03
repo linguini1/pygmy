@@ -8528,7 +8528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/2/588/prd_pim_datasheet_2191277_EN_pdf-3419125.pdf"
+		(property "Datasheet" ""
 			(at 109.22 173.99 0)
 			(effects
 				(font
@@ -8546,7 +8546,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "LG R971-KN-1"
+		(property "MP" "HSMG-C170"
 			(at 109.22 173.99 0)
 			(effects
 				(font
