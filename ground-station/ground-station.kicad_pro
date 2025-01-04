@@ -63,16 +63,7 @@
           "width": 0.286
         }
       ],
-      "drc_exclusions": [
-        "hole_clearance|109255000|102050000|26093d4a-734a-4dc5-a1a3-7c17cfa5b403|8383b42d-3e47-4d30-ab99-4c7de719208a",
-        "hole_clearance|109255000|102050000|a3db05bc-a078-44fd-bf56-f0a60add8a31|8383b42d-3e47-4d30-ab99-4c7de719208a",
-        "hole_clearance|109255000|95950000|a1ae49d8-646b-4e01-882a-5458b09e5faf|cc1c12c1-f247-45ab-b0fc-1ed4be94f8a4",
-        "hole_clearance|109255000|95950000|a46fafa8-8639-4aba-b8e0-88b7b027b853|cc1c12c1-f247-45ab-b0fc-1ed4be94f8a4",
-        "lib_footprint_mismatch|106290000|99000000|ed0fa160-9826-45df-a409-2997dd6d5779|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|169000000|99000000|ae665be5-e58b-4f90-afd1-ac2db96b9b55|00000000-0000-0000-0000-000000000000",
-        "text_thickness|110000000|114000000|a82e4a7e-4196-4410-94de-3dd3c51bec7e|00000000-0000-0000-0000-000000000000",
-        "text_thickness|155500000|92500000|2fff72fd-7b4b-4ff9-b930-c55dfeb469dc|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -592,7 +583,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ground-station.step",
       "svg": "",
       "vrml": ""
     },
