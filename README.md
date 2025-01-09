@@ -36,9 +36,13 @@ CAD enclosure designs included in this repository.
 The PygmyGS case can be found under [`ground-station/enclosure`](./ground-station/enclosure), along with an assembly
 file so you can see the PygmyGS mounted inside it with all the fasteners.
 
+![PygmyGS Enclosure](./docs/assets/gs-enclosure.png)
+
 A sample avionics bay for the Pygmy flight computer can be found under
 [`flight-computer/enclosure`](./flight-computer/enclosure), along with an assembly file so you can see the Pygmy mounted
 in the bay with a battery and arming switch. This design is also fully parametric so you can modify it to the body tube
 diameter of your rocket, different battery size, etc. This design is largely based off of the configuration I flew in my
 L1 certification flight, so feel free to fully change it depending on your constraints and desires! It is by no way the
 recommended configuration for the Pygmy, just one possible design.
+
+![Pygmy Sample Avionics Bay](./docs/assets/bay_enclosure.png)
