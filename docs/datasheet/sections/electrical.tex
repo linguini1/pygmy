@@ -1,1 +1,32 @@
 \section{Electrical Specification}
+
+\subsection{Power}
+
+\subsubsection{Sources}
+
+The Pygmy is able to be powered via two interfaces. They may both be connected simultaneously, in which case the higher
+of the two voltage sources is selected as the main power. This will always be the USB-C power.
+
+\begin{itemize}
+    \item USB-C
+    \item JST-PH battery connector
+\end{itemize}
+
+The USB-C power is for a standard 5V USB-C connection. This is the default power supply and useful for development at
+your desk.
+
+The JST-PH battery connector is intended for connecting a 3.7V nominal 18650 or LiPo battery. Do \textbf{NOT} connect
+any other battery type to this connector.
+
+Please note that the JST-PH connector \textbf{does not have a standard polarity configuration}. The Pygmy uses the
+polarity that is most widely available for drone batteries and their chargers. For this reason, the JST-PH connector has
+reverse polarity protection.
+
+\subsubsection{Regulation}
+
+The Pygmy uses the TPS2116DRL buck converter to step down the input voltage to a nominal 3.3V. It is only rated for up
+to 6V inputs, and it is rated for a maximum of 600mA of current draw.
+
+\subsubsection{Current Draw}
+
+% TODO detail current draw
