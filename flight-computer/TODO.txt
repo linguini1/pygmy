@@ -1,0 +1,6 @@
+Changes:
+- More reasonable dimensioning of the board edges, currently slightly weird measurements for hole spacing
+- Silkscreen to show direction of IMU & magnetometer axes
+
+Nice to haves:
+- Deployment terminal block with MOSFET connection to MCU
