@@ -6,6 +6,10 @@ The Pygmy avionics bay is designed based on [this video by Matt Pritchard](https
 as well as numerous other similar bay designs I have seen online and during my time participating in
 [IREC](https://www.soundingrocket.org/what-is-irec.html) rocketry competitions.
 
+Here is the Pygmy within my L1 rocket:
+
+![L1 Rocket](./docs/assets/L1_assembly.png)
+
 It is a convenient design that makes removing the avionics bay and changing batteries relatively easy. It is also pretty
 simple design-wise to customize the mounting plate to meet the needs of your avionics system setup. Mine uses a pull-pin
 switch since my university rocketry team has always used screw switches, and I have always wanted to use my "remove

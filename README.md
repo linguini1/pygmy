@@ -30,6 +30,10 @@ from the ground and can interface with consumer hardware like a laptop through i
     The ECAD render of the PygmyGS Rev A
 </p>
 
+Here is the Pygmy within my L1 rocket:
+
+![L1 Rocket](./docs/assets/L1_assembly.png)
+
 ## Motivation
 
 I am a computer systems engineer who has designed avionics for my university's rocketry team for several years. I like
