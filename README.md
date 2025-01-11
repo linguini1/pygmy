@@ -3,11 +3,32 @@
 This project is a rocket flight computer design for my TRA L1 certification flight. The name is a play on the fact that
 it's designed to be small and also runs on a Pi (Py) chip. Yes, that means you can program it with MicroPython (Py).
 
-![Pygmy Rev A](./docs/assets/pygmy.png)
+<p align="center">
+    <img style="align:center" width="80%" src="./docs/assets/pygmy.png" />
+    <br/>
+    Pygmy Rev A
+</p>
 
-The flight computer also has a sibling ground station receiver, the Pygmy GS.
+The flight computer also has a sibling ground station receiver, the PygmyGS. This board allows you to receive telemetry
+from the ground and can interface with consumer hardware like a laptop through its USB-C serial interface.
 
-![PygmyGS Rev A](./docs/assets/pygmy-gs.png)
+<p align="center">
+    <img style="align:center" width="80%" src="./docs/assets/pygmy-gs-prototype.jpg" />
+    <br/>
+    The manufactured PygmyGS Rev A
+</p>
+
+<p align="center">
+    <img style="align:center" width="50%" src="./docs/assets/pygmy-gs-held.jpg" />
+    <br/>
+    Handheld for scale
+</p>
+
+<p align="center">
+    <img style="align:center" width="80%" src="./docs/assets/pygmy-gs.png" />
+    <br/>
+    The ECAD render of the PygmyGS Rev A
+</p>
 
 ## Motivation
 
@@ -36,7 +57,11 @@ CAD enclosure designs included in this repository.
 The PygmyGS case can be found under [`ground-station/enclosure`](./ground-station/enclosure), along with an assembly
 file so you can see the PygmyGS mounted inside it with all the fasteners.
 
-![PygmyGS Enclosure](./docs/assets/gs-enclosure.png)
+<p align="center">
+    <img style="align:center" width="80%" src="./docs/assets/gs-enclosure.png" />
+    <br/>
+    PygmyGS hinged enclosure
+</p>
 
 A sample avionics bay for the Pygmy flight computer can be found under
 [`flight-computer/enclosure`](./flight-computer/enclosure), along with an assembly file so you can see the Pygmy mounted
@@ -45,4 +70,8 @@ diameter of your rocket, different battery size, etc. This design is largely bas
 L1 certification flight, so feel free to fully change it depending on your constraints and desires! It is by no way the
 recommended configuration for the Pygmy, just one possible design.
 
-![Pygmy Sample Avionics Bay](./docs/assets/bay_enclosure.png)
+<p align="center">
+    <img style="align:center" width="80%" src="./docs/assets/bay_enclosure.png" />
+    <br/>
+    Pygmy sample avionics bay
+</p>
