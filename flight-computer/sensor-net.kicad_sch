@@ -7,7 +7,7 @@
 	(title_block
 		(title "Pygmy")
 		(date "2024-11-11")
-		(rev "A")
+		(rev "B")
 		(company "Matteo Golin")
 	)
 	(lib_symbols

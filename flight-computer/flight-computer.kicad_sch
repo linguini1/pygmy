@@ -7,7 +7,7 @@
 	(title_block
 		(title "Pygmy")
 		(date "2024-11-10")
-		(rev "A")
+		(rev "B")
 		(company "Matteo Golin")
 		(comment 1 "Use JLC04161H-7628")
 	)
@@ -1222,7 +1222,7 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND23"
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1237,7 +1237,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23"
+			(property "Value" "Crystal_GND24"
 				(at 3.175 3.175 0)
 				(effects
 					(font
@@ -1264,7 +1264,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1291,7 +1291,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -1400,7 +1400,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND23_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1438,7 +1438,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "3"
 						(effects
@@ -1456,7 +1456,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 -5.08 90)
 					(length 1.27)
 					(name "4"
 						(effects
@@ -7893,16 +7893,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND23")
+		(lib_id "Device:Crystal_GND24")
 		(at 55.88 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "04b76260-d1c3-4cb7-802d-7fd3ad689f93")
+		(fields_autoplaced yes)
+		(uuid "0768e719-1b5c-4548-96da-2d9180cf72bb")
 		(property "Reference" "Y1"
-			(at 60.198 71.882 0)
+			(at 63.5 71.1514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7910,7 +7911,7 @@
 			)
 		)
 		(property "Value" "12MHz"
-			(at 62.23 74.168 0)
+			(at 63.5 73.6914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +7927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/datasheets/ABM8-272-T3.pdf"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/3/ABM8_272_T3-3392615.pdf"
 			(at 55.88 77.47 0)
 			(effects
 				(font
@@ -7935,7 +7936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 55.88 77.47 0)
 			(effects
 				(font
@@ -7943,27 +7944,18 @@
 				)
 				(hide yes)
 			)
-		)
-		(property "MP" "ABM8-272-T3"
-			(at 55.88 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "cb2435f1-0f48-46a0-b11c-518bfa67b58e")
-		)
-		(pin "3"
-			(uuid "f14eb8eb-59f7-4ed9-95b0-2b6869424aa2")
 		)
 		(pin "2"
-			(uuid "01dc404b-5a96-44ef-bb8e-231ca8463516")
+			(uuid "526e57c1-f2d1-47aa-979b-98e329130d4c")
 		)
 		(pin "1"
-			(uuid "667f1360-13ed-4c44-a5c8-b1e71729a9f8")
+			(uuid "ae7e0f77-c197-4933-9f48-7c5d802a8dd3")
+		)
+		(pin "4"
+			(uuid "ddc01d03-d891-4cd3-b5dd-5e6bfd84792c")
+		)
+		(pin "3"
+			(uuid "9031e3e7-39b5-403d-a2f2-4501ab418ff2")
 		)
 		(instances
 			(project ""
