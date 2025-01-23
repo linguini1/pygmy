@@ -6,7 +6,13 @@ it's designed to be small and also runs on a Pi (Py) chip. Yes, that means you c
 <p align="center">
     <img style="align:center" width="80%" src="./docs/assets/pygmy.png" />
     <br/>
-    Pygmy Rev A
+    Pygmy Rev B
+</p>
+
+<p align="center">
+    <img style="align:center" width="80%" src="./docs/assets/pygmy-prototype.jpg" />
+    <br/>
+    The prototype board Pygmy Rev B with its ground station sibling, PygmyGS.
 </p>
 
 The flight computer also has a sibling ground station receiver, the PygmyGS. This board allows you to receive telemetry
