@@ -4,8 +4,8 @@ This project is a rocket flight computer design for my TRA L1 certification flig
 it's designed to be small and also runs on a Pi (Py) chip. Yes, that means you can program it with MicroPython (Py).
 
 The Pygmy was designed with the [Apache NuttX RTOS][nuttx] in mind (you can find the board support for it
-[here][https://github.com/linguini1/pygmy-nx]), but it is also possible to program it using the Pico C SDK or
-MicroPython (or really, whatever else you can flash on an RP2040).
+[here][pygmy-nx]), but it is also possible to program it using the Pico C SDK or MicroPython (or really, whatever else
+you can flash on an RP2040).
 
 <p align="center">
     <img style="align:center" width="80%" src="./docs/assets/pygmy.png" />
