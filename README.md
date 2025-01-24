@@ -3,6 +3,10 @@
 This project is a rocket flight computer design for my TRA L1 certification flight. The name is a play on the fact that
 it's designed to be small and also runs on a Pi (Py) chip. Yes, that means you can program it with MicroPython (Py).
 
+The Pygmy was designed with the [Apache NuttX RTOS][nuttx] in mind (you can find the board support for it
+[here][https://github.com/linguini1/pygmy-nx]), but it is also possible to program it using the Pico C SDK or
+MicroPython (or really, whatever else you can flash on an RP2040).
+
 <p align="center">
     <img style="align:center" width="80%" src="./docs/assets/pygmy.png" />
     <br/>
@@ -45,12 +49,17 @@ Here is the Pygmy within my L1 rocket:
 I am a computer systems engineer who has designed avionics for my university's rocketry team for several years. I like
 the challenge of designing, building and programming embedded systems for unique environments, like the inside of a
 rocket. Although my L1 flight won't have the same challenges as my university's rockets (which fly up to 30k feet and
-have hit Mach 1.89), it will still have challenges. It is, differently, entirely my own design to mess with and do as I
-please!
+have hit Mach 1.89), it will still have challenges unique to rocketry like high vibration and lots of different forces,
+arming requirements and logging speed requirements. Most differently, this flight computer is entirely my own project to
+experiment with as I please!
 
 My L1, as far as I'm concerned, is to be a relatively standard L1 rocket build (not a kit, still my own) outside of this
 flight computer. That way I can get my cert while having a rocket which meets my primary goal: being a vessel for my
 flight computer.
+
+This flight computer, once flight tested in an L1, should in theory be capable up to L3 flights as a data logger.
+Deployment control may be added in later revisions as I attempt my L2 certification with electronics, but that will be
+much later.
 
 ## Usage
 
@@ -61,8 +70,9 @@ Both guides are currently under construction.
 
 ## Other Goodies
 
-Along with the Pygmy and PygmyGS E-CAD design files _and_ free, open-source software, there is additionally parametric
-CAD enclosure designs included in this repository.
+Along with the Pygmy and PygmyGS E-CAD design files _and_ free,
+[open-source software][https://github.com/linguini1/pygmy-nx], there is additionally parametric CAD enclosure designs
+included in this repository.
 
 The PygmyGS case can be found under [`ground-station/enclosure`](./ground-station/enclosure), along with an assembly
 file so you can see the PygmyGS mounted inside it with all the fasteners.
@@ -85,3 +95,6 @@ recommended configuration for the Pygmy, just one possible design.
     <br/>
     Pygmy sample avionics bay
 </p>
+
+[pygmy-nx]: https://github.com/linguini1/pygmy-nx
+[nuttx]: https://nuttx.apache.org/
