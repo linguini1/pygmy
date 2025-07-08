@@ -71,7 +71,7 @@ Both guides are currently under construction.
 ## Other Goodies
 
 Along with the Pygmy and PygmyGS E-CAD design files _and_ free,
-[open-source software][https://github.com/linguini1/pygmy-nx], there is additionally parametric CAD enclosure designs
+[open-source software](https://github.com/linguini1/pygmy-nx), there is additionally parametric CAD enclosure designs
 included in this repository.
 
 The PygmyGS case can be found under [`ground-station/enclosure`](./ground-station/enclosure), along with an assembly
